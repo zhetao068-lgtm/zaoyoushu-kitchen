@@ -1,0 +1,64 @@
+name: Publish mobile download
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - .github/workflows/mobile-release.yml
+  workflow_dispatch:
+
+concurrency:
+  group: mobile-download
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'zhetao068-lgtm/zaoyoushu-kitchen' && github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify public files
+        run: node bench/audit-release.mjs
+      - name: Publish the audited ZIP
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          commit="$(git rev-parse HEAD)"
+          asset_name=zaoyoushu-kitchen-mobile-offline.zip
+          asset="$RUNNER_TEMP/$asset_name"
+          git archive --format=zip --output="$asset" "$commit" -- index.html README.md DATA-SOURCES.md licenses media papers bench
+          latest_error="$RUNNER_TEMP/latest-release-error"
+          if ! latest="$(gh api "repos/$GITHUB_REPOSITORY/releases/latest" 2>"$latest_error")"; then
+            if ! grep -Fq '(HTTP 404)' "$latest_error"; then
+              cat "$latest_error" >&2
+              exit 1
+            fi
+            latest='{}'
+          fi
+          previous_tag="$(jq -r '.tag_name // empty' <<<"$latest")"
+          if [[ -n "$previous_tag" ]] &&
+             [[ "$(git rev-parse --verify "refs/tags/$previous_tag:index.html")" == "$(git rev-parse HEAD:index.html)" ]] &&
+             jq -e --arg filename "$asset_name" 'any(.assets[]; .name == $filename and .state == "uploaded" and .size > 0)' <<<"$latest" >/dev/null; then
+            echo "The latest download already includes this mobile edition."
+            exit 0
+          fi
+          tag="mobile-${commit:0:12}"
+          notes="$RUNNER_TEMP/mobile-release-notes.md"
+          cat >"$notes" <<'EOF'
+          手机版已同步。下载 ZIP 并解压，用浏览器打开 index.html，即可离线找菜和记录库存。
+
+          The mobile edition has been updated. Extract the ZIP and open index.html in a browser to search recipes and track your pantry offline.
+          EOF
+          gh release create "$tag" "$asset" --target "$commit" --latest --title "灶有数手机版 · $tag" --notes-file "$notes"
+          hash="$(sha256sum "$asset" | cut -d' ' -f1)"
+          gh api "repos/$GITHUB_REPOSITORY/releases/latest" |
+            jq -e --arg tag "$tag" --arg name "$asset_name" --arg digest "sha256:$hash" \
+              '.tag_name == $tag and any(.assets[]; .name == $name and .digest == $digest and .state == "uploaded")'

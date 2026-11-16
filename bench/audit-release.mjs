@@ -3,7 +3,7 @@ import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { gzipSync } from "node:zlib";
 
-const buffer = await readFile(new URL("../index.html", import.meta.url));
+const buffer = await readFile(process.argv[2] ?? new URL("../index.html", import.meta.url));
 const html = buffer.toString("utf8");
 const csp = /<meta http-equiv="Content-Security-Policy" content="([^"]+)">/u.exec(html)?.[1];
 assert.ok(csp);
