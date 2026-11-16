@@ -2,7 +2,7 @@
 
 | 数据 | 条数 | 来源与许可 |
 | --- | ---: | --- |
-| 项目定量家常菜 | 124 | 灶有数整理，条目中注明编辑制作或引用来源 |
+| 项目定量家常菜 | 187 | 灶有数整理，条目中注明编辑制作或引用来源 |
 | HowToCook 参考菜谱 | 285 | [HowToCook 1.6.0](https://github.com/Anduin2017/HowToCook/releases/tag/1.6.0) · [Unlicense 许可全文](licenses/HowToCook-Unlicense.txt) |
 | 中文维基教科书参考菜谱 | 99 | [中文维基教科书](https://zh.wikibooks.org/)编者 · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | 每日食光参考菜谱 | 724 | [每日食光固定版本](https://github.com/Jiayu-zheng1/EveryDay_Food/tree/5bd6cad753f68105a77b0ffcca2757f65fd5899d) · [MIT 版权与许可全文](licenses/everyday-food-MIT.txt) |
