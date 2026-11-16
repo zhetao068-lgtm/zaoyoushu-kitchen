@@ -6,6 +6,10 @@
 
 本实验验证一个内嵌 1,286 道菜谱的单文件网页。公开发布物包括静态菜谱和浏览器程序。个人库存由使用者输入后写入浏览器存储。构建校验重算了 11 段脚本与 1 段样式的 SHA-256，全部与网页内容安全策略声明一致。浏览器验证在手机宽度下完成了搜菜、查看做法、录入库存和刷新后读取。 [发布包校验数据](../bench/release-audit.json)
 
+## English abstract
+
+**Browser-local pantry storage and release verification.** The release bundles 1,286 recipes into a standalone HTML page and stores pantry entries in the current browser. The release audit recomputed SHA-256 hashes for 11 inline scripts and one inline stylesheet and matched them against the declared Content Security Policy. At 320- and 390-pixel browser widths, a test user could search for a recipe, open the instructions, record ingredients, and recover their quantities after a refresh. The checks used synthetic pantry entries. [Release audit results](../bench/release-audit.json)
+
 ## 数据流与设计
 
 网页在进入时加载随发布包附带的菜谱。搜菜和库存匹配在浏览器进程中计算。要记住库存，应用调用 `localStorage`，并用同一键读回先前记录。使用同一浏览器的同一 HTTPS 来源时，这些记录可供下次使用。新域名、新浏览器或已清除的站点存储从空库存开始。使用本地文件时，持久化也取决于浏览器对文件来源的处理。 [WHATWG Web Storage](https://html.spec.whatwg.org/multipage/webstorage.html)

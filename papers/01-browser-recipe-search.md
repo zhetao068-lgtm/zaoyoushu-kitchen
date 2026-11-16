@@ -6,6 +6,10 @@
 
 家常菜搜索同时接受菜名、食材、烹调方式和中文口语组合。本实验用同一份 1,286 道菜谱索引对比两种词项评分写法。优化通过逐词累加，在必需词不匹配时停止检查当前菜谱。96 组查询与筛选组合返回相同的菜谱、顺序和分数。在 Node.js 24.22.1 的单机基准中，每轮平均每次查询耗时的中位数由 0.5317 毫秒降至 0.2086 毫秒。 [测量数据](../bench/search-results.json)
 
+## English abstract
+
+**Optimizing multi-term Chinese search across 1,286 recipes.** We compared two scoring implementations against the same recipe index. The revised implementation accumulates scores term by term and stops evaluating a recipe when a required term fails to match. Across 96 query-and-filter cases, both implementations returned the same recipes in the same order with identical scores. On Node.js 24.22.1, the median round-average time per query fell from 0.5317 to 0.2086 milliseconds. The benchmark measures search computation after the index loads. [Measurements](../bench/search-results.json)
+
 ## 检索方法
 
 菜名和查询文本先用 Unicode NFKC 规范化，再按项目维护的别名表统一常用词。比如「洋芋」可以归到「土豆」，「空气炸锅」可匹配「空气炸」。NFKC 负责字符规范化，食材同义词和可识别的做法仍由菜谱索引定义。 [Unicode 标准附录 15](https://www.unicode.org/reports/tr15/)
