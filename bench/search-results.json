@@ -1,0 +1,19 @@
+{
+  "node": "v24.22.1",
+  "totalRecipes": 1286,
+  "queryTexts": 24,
+  "cases": 96,
+  "timedRounds": 16,
+  "sameOrderAndScores": true,
+  "before": {
+    "medianMsPerQuery": 0.5317,
+    "slowestRoundMsPerQuery": 0.9094,
+    "resultCountPerRound": 2900
+  },
+  "after": {
+    "medianMsPerQuery": 0.2086,
+    "slowestRoundMsPerQuery": 0.2206,
+    "resultCountPerRound": 2900
+  },
+  "medianReductionPercent": 60.8
+}

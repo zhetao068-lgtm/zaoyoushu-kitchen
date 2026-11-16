@@ -1,0 +1,13 @@
+{
+  "htmlBytes": 2212699,
+  "gzipLevel9Bytes": 480725,
+  "sha256": "e1412b893f178f10af833fd37913279da0ac9bfba6fe6f65ebc5325a310f5991",
+  "checkedScriptHashes": 11,
+  "checkedStyleHashes": 1,
+  "sourceRecipesWithAttribution": 877,
+  "licenses": {
+    "creativecommons.org": 133,
+    "github.com": 724,
+    "data.gov.tw": 20
+  }
+}
