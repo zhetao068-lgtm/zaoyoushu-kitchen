@@ -1,6 +1,6 @@
 # 灶有数 · Zaoyoushu Kitchen
 
-[简体中文](#简体中文) · [English](#english) · [下载手机版 / Download](https://github.com/zhetao068-lgtm/zaoyoushu-kitchen/releases/latest)
+[简体中文](#简体中文) · [English](#english) · [下载手机版 / Download](https://github.com/zhetao068-lgtm/zaoyoushu-kitchen/releases/latest) · [项目赞助](#项目赞助) / [Support](#support)
 
 ![灶有数手机搜菜界面 / Zaoyoushu Kitchen recipe search on mobile](media/mobile-search.png)
 
@@ -15,6 +15,10 @@
 - **保存自己的做法。** 网页无需账号，库存、菜单和个人做菜记录保存在当前浏览器。
 
 菜谱经过文字整理与校对。引用的菜谱保留出处、署名和许可。 [菜谱来源与许可](DATA-SOURCES.md)
+
+### 项目赞助
+
+灶有数采用自愿赞助。手机版、菜谱库与技术论文均可免费访问。赞助用于支持菜谱来源校对、手机端测试、无障碍改进和日常维护。收款入口待开通。
 
 ### 技术论文
 
@@ -33,6 +37,10 @@ Download the ZIP from the [latest release](https://github.com/zhetao068-lgtm/zao
 - **Keep your own cooking notes.** No account is required. Pantry entries, selected dishes, and personal notes stay in the current browser. Reopen the same entry point to access them.
 
 The standalone page bundles its recipe data, styles, and scripts. Imported recipes carry their original attribution and licensing information. [Data sources and licenses](DATA-SOURCES.md)
+
+### Support
+
+Zaoyoushu Kitchen welcomes voluntary support for recipe attribution, mobile testing, accessibility improvements, and maintenance. The app, recipe collection, and engineering papers are free to access. The payment link is pending.
 
 ### Engineering papers
 
