@@ -1,0 +1,8322 @@
+{
+  "artifact": {
+    "bytes": 2263560,
+    "sha256": "f428a0c2d2f8de7af2f3ac7435635af5c054d77110c5c6dd49300cdc1b2839d4"
+  },
+  "environment": {
+    "node": "v24.22.3",
+    "platform": "win32",
+    "architecture": "x64",
+    "unicode": "17.0",
+    "icu": "78.3"
+  },
+  "method": "Released pure parser, declared label coverage and synthetic unit/batch cases. Every row matched its explicit expected outcome.",
+  "ingredientIds": 47,
+  "distinctDeclaredLabels": 103,
+  "ambiguousLabels": [
+    {
+      "label": "豆腐",
+      "foodIds": [
+        "firm-tofu",
+        "soft-tofu"
+      ]
+    }
+  ],
+  "countUnitIngredients": [
+    "egg"
+  ],
+  "estimatedPieceIngredients": [
+    "tomato",
+    "cucumber",
+    "potato",
+    "carrot",
+    "sweetpotato"
+  ],
+  "maximumStoredQuantity": 100000,
+  "units": {
+    "mass": "grams",
+    "count": "pieces",
+    "pieceEstimateInputs": "pieces before the UI applies its approximate gram weight"
+  },
+  "cases": 705,
+  "groups": {
+    "declared-label": {
+      "cases": 103,
+      "accepted": 102,
+      "rejected": 1
+    },
+    "quantity-unit": {
+      "cases": 512,
+      "accepted": 512,
+      "rejected": 0
+    },
+    "repeated-ingredient": {
+      "cases": 47,
+      "accepted": 0,
+      "rejected": 47
+    },
+    "piece-estimate-input": {
+      "cases": 15,
+      "accepted": 15,
+      "rejected": 0
+    },
+    "repeated-alias": {
+      "cases": 3,
+      "accepted": 0,
+      "rejected": 3
+    },
+    "invalid-or-unsupported": {
+      "cases": 20,
+      "accepted": 0,
+      "rejected": 20
+    },
+    "batch-limit": {
+      "cases": 2,
+      "accepted": 1,
+      "rejected": 1
+    },
+    "mixed-batch": {
+      "cases": 3,
+      "accepted": 3,
+      "rejected": 0
+    }
+  },
+  "rows": [
+    {
+      "group": "declared-label",
+      "input": "番茄200克",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "西红柿200克",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "黄瓜200克",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "青瓜200克",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "土豆200克",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "马铃薯200克",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "洋芋200克",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "胡萝卜200克",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "红萝卜200克",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "葱200克",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "小葱200克",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "香葱200克",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "蒜200克",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "大蒜200克",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "蒜瓣200克",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "蒜蓉200克",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "姜200克",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "生姜200克",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "洋葱200克",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "包菜200克",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "卷心菜200克",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "圆白菜200克",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "大白菜200克",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "白菜200克",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "小青菜200克",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "青菜200克",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "上海青200克",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "油菜200克",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "菠菜200克",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "韭菜200克",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "西兰花200克",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "绿花菜200克",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "花菜200克",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "菜花200克",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "花椰菜200克",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "茄子200克",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "鲜香菇200克",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "香菇200克",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "金针菇200克",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "绿豆芽200克",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "豆芽200克",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "藕200克",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "莲藕200克",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "藕片200克",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "青椒200克",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "菜椒200克",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "芹菜200克",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "西芹200克",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "玉米粒200克",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "玉米200克",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "甜玉米200克",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "冬瓜200克",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "南瓜200克",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "红薯200克",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "地瓜200克",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "番薯200克",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "生菜200克",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "西葫芦200克",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "山药200克",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "淮山200克",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "鸡蛋4个",
+      "accepted": true,
+      "entries": {
+        "egg": {
+          "value": 4,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "蛋4个",
+      "accepted": true,
+      "entries": {
+        "egg": {
+          "value": 4,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "北豆腐200克",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "豆腐200克",
+      "accepted": false,
+      "entries": null,
+      "error": "请写清「豆腐」的种类，例如北豆腐或嫩豆腐。"
+    },
+    {
+      "group": "declared-label",
+      "input": "老豆腐200克",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "嫩豆腐200克",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "南豆腐200克",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "豆腐皮200克",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "豆皮200克",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "千张200克",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "猪瘦肉200克",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "猪肉200克",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "肉丝200克",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "猪肉末200克",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "肉末200克",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "猪肉馅200克",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "鸡胸肉200克",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "鸡肉200克",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "鸡丁200克",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "牛肉200克",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "虾仁200克",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "虾200克",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "去刺鱼片200克",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "鱼200克",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "鱼片200克",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "虾皮200克",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "熟米饭200克",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "米饭200克",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "剩饭200克",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "大米200克",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "米200克",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "生米200克",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "小米200克",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "挂面200克",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "面条200克",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "干面200克",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "面粉200克",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "小麦粉200克",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "中筋面粉200克",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "干粉丝200克",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "粉丝200克",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "干紫菜200克",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "declared-label",
+      "input": "紫菜200克",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 200,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄250克",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄250g",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄0.25千克",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄0.25公斤",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄0.25kg",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄半斤",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄5两",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄0克",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "番茄100000克",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "番茄200克 番茄200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「番茄」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜250克",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜250g",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜0.25千克",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜0.25kg",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜半斤",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜5两",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜0克",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "黄瓜100000克",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "黄瓜200克 黄瓜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「黄瓜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆250克",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆250g",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆0.25千克",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆0.25公斤",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆0.25kg",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆半斤",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆5两",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆0克",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "土豆100000克",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "土豆200克 土豆200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「土豆」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜250克",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜250g",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜0.25千克",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜0.25kg",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜半斤",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜5两",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜0克",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "胡萝卜100000克",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "胡萝卜200克 胡萝卜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「胡萝卜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱250克",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱250g",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱0.25千克",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱0.25公斤",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱0.25kg",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱半斤",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱5两",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱0克",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "葱100000克",
+      "accepted": true,
+      "entries": {
+        "scallion": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "葱200克 葱200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「葱」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜250克",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜250g",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜0.25千克",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜0.25kg",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜半斤",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜5两",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜0克",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "蒜100000克",
+      "accepted": true,
+      "entries": {
+        "garlic": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "蒜200克 蒜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「蒜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜250克",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜250g",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜0.25千克",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜0.25kg",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜半斤",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜5两",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜0克",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "姜100000克",
+      "accepted": true,
+      "entries": {
+        "ginger": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "姜200克 姜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「姜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱250克",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱250g",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱0.25千克",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱0.25公斤",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱0.25kg",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱半斤",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱5两",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱0克",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "洋葱100000克",
+      "accepted": true,
+      "entries": {
+        "onion": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "洋葱200克 洋葱200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「洋葱」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜250克",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜250g",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜0.25千克",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜0.25kg",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜半斤",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜5两",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜0克",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "包菜100000克",
+      "accepted": true,
+      "entries": {
+        "cabbage": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "包菜200克 包菜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「包菜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜250克",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜250g",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜0.25千克",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜0.25kg",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜半斤",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜5两",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜0克",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大白菜100000克",
+      "accepted": true,
+      "entries": {
+        "napa": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "大白菜200克 大白菜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「大白菜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜250克",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜250g",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜0.25千克",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜0.25kg",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜半斤",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜5两",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜0克",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小青菜100000克",
+      "accepted": true,
+      "entries": {
+        "bokchoy": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "小青菜200克 小青菜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「小青菜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜250克",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜250g",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜0.25千克",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜0.25kg",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜半斤",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜5两",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜0克",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "菠菜100000克",
+      "accepted": true,
+      "entries": {
+        "spinach": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "菠菜200克 菠菜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「菠菜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜250克",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜250g",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜0.25千克",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜0.25kg",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜半斤",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜5两",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜0克",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "韭菜100000克",
+      "accepted": true,
+      "entries": {
+        "chives": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "韭菜200克 韭菜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「韭菜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花250克",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花250g",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花0.25千克",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花0.25公斤",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花0.25kg",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花半斤",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花5两",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花0克",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西兰花100000克",
+      "accepted": true,
+      "entries": {
+        "broccoli": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "西兰花200克 西兰花200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「西兰花」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜250克",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜250g",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜0.25千克",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜0.25kg",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜半斤",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜5两",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜0克",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "花菜100000克",
+      "accepted": true,
+      "entries": {
+        "cauliflower": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "花菜200克 花菜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「花菜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子250克",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子250g",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子0.25千克",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子0.25公斤",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子0.25kg",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子半斤",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子5两",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子0克",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "茄子100000克",
+      "accepted": true,
+      "entries": {
+        "eggplant": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "茄子200克 茄子200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「茄子」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇250克",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇250g",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇0.25千克",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇0.25公斤",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇0.25kg",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇半斤",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇5两",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇0克",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鲜香菇100000克",
+      "accepted": true,
+      "entries": {
+        "shiitake": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "鲜香菇200克 鲜香菇200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「鲜香菇」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇250克",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇250g",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇0.25千克",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇0.25公斤",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇0.25kg",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇半斤",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇5两",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇0克",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "金针菇100000克",
+      "accepted": true,
+      "entries": {
+        "enoki": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "金针菇200克 金针菇200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「金针菇」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽250克",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽250g",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽0.25千克",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽0.25公斤",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽0.25kg",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽半斤",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽5两",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽0克",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "绿豆芽100000克",
+      "accepted": true,
+      "entries": {
+        "sprouts": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "绿豆芽200克 绿豆芽200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「绿豆芽」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕250克",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕250g",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕0.25千克",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕0.25公斤",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕0.25kg",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕半斤",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕5两",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕0克",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "藕100000克",
+      "accepted": true,
+      "entries": {
+        "lotus": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "藕200克 藕200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「藕」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒250克",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒250g",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒0.25千克",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒0.25公斤",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒0.25kg",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒半斤",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒5两",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒0克",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "青椒100000克",
+      "accepted": true,
+      "entries": {
+        "pepper": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "青椒200克 青椒200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「青椒」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜250克",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜250g",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜0.25千克",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜0.25kg",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜半斤",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜5两",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜0克",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "芹菜100000克",
+      "accepted": true,
+      "entries": {
+        "celery": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "芹菜200克 芹菜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「芹菜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒250克",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒250g",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒0.25千克",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒0.25公斤",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒0.25kg",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒半斤",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒5两",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒0克",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "玉米粒100000克",
+      "accepted": true,
+      "entries": {
+        "corn": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "玉米粒200克 玉米粒200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「玉米粒」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜250克",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜250g",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜0.25千克",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜0.25kg",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜半斤",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜5两",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜0克",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "冬瓜100000克",
+      "accepted": true,
+      "entries": {
+        "wintermelon": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "冬瓜200克 冬瓜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「冬瓜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜250克",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜250g",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜0.25千克",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜0.25kg",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜半斤",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜5两",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜0克",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "南瓜100000克",
+      "accepted": true,
+      "entries": {
+        "pumpkin": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "南瓜200克 南瓜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「南瓜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯250克",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯250g",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯0.25千克",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯0.25公斤",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯0.25kg",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯半斤",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯5两",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯0克",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "红薯100000克",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "红薯200克 红薯200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「红薯」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜250克",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜250g",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜0.25千克",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜0.25kg",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜半斤",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜5两",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜0克",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "生菜100000克",
+      "accepted": true,
+      "entries": {
+        "lettuce": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "生菜200克 生菜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「生菜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦250克",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦250g",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦0.25千克",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦0.25公斤",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦0.25kg",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦半斤",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦5两",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦0克",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "西葫芦100000克",
+      "accepted": true,
+      "entries": {
+        "zucchini": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "西葫芦200克 西葫芦200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「西葫芦」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药250克",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药250g",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药0.25千克",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药0.25公斤",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药0.25kg",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药半斤",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药5两",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药0克",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "山药100000克",
+      "accepted": true,
+      "entries": {
+        "yam": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "山药200克 山药200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「山药」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡蛋4个",
+      "accepted": true,
+      "entries": {
+        "egg": {
+          "value": 4,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡蛋４枚",
+      "accepted": true,
+      "entries": {
+        "egg": {
+          "value": 4,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡蛋4颗",
+      "accepted": true,
+      "entries": {
+        "egg": {
+          "value": 4,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡蛋4",
+      "accepted": true,
+      "entries": {
+        "egg": {
+          "value": 4,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡蛋1.0个",
+      "accepted": true,
+      "entries": {
+        "egg": {
+          "value": 1,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡蛋0个",
+      "accepted": true,
+      "entries": {
+        "egg": {
+          "value": 0,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "鸡蛋2个 鸡蛋2个",
+      "accepted": false,
+      "entries": null,
+      "error": "「鸡蛋」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐250克",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐250g",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐0.25千克",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐0.25公斤",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐0.25kg",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐半斤",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐5两",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐0克",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "北豆腐100000克",
+      "accepted": true,
+      "entries": {
+        "firm-tofu": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "北豆腐200克 北豆腐200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「北豆腐」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐250克",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐250g",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐0.25千克",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐0.25公斤",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐0.25kg",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐半斤",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐5两",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐0克",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "嫩豆腐100000克",
+      "accepted": true,
+      "entries": {
+        "soft-tofu": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "嫩豆腐200克 嫩豆腐200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「嫩豆腐」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮250克",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮250g",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮0.25千克",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮0.25公斤",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮0.25kg",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮半斤",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮5两",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮0克",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "豆腐皮100000克",
+      "accepted": true,
+      "entries": {
+        "tofu-skin": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "豆腐皮200克 豆腐皮200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「豆腐皮」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉250克",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉250g",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉0.25千克",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉0.25公斤",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉0.25kg",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉半斤",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉5两",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉0克",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪瘦肉100000克",
+      "accepted": true,
+      "entries": {
+        "pork": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "猪瘦肉200克 猪瘦肉200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「猪瘦肉」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末250克",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末250g",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末0.25千克",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末0.25公斤",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末0.25kg",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末半斤",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末5两",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末0克",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "猪肉末100000克",
+      "accepted": true,
+      "entries": {
+        "ground-pork": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "猪肉末200克 猪肉末200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「猪肉末」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉250克",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉250g",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉0.25千克",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉0.25公斤",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉0.25kg",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉半斤",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉5两",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉0克",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "鸡胸肉100000克",
+      "accepted": true,
+      "entries": {
+        "chicken": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "鸡胸肉200克 鸡胸肉200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「鸡胸肉」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉250克",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉250g",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉0.25千克",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉0.25公斤",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉0.25kg",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉半斤",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉5两",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉0克",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "牛肉100000克",
+      "accepted": true,
+      "entries": {
+        "beef": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "牛肉200克 牛肉200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「牛肉」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁250克",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁250g",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁0.25千克",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁0.25公斤",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁0.25kg",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁半斤",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁5两",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁0克",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾仁100000克",
+      "accepted": true,
+      "entries": {
+        "shrimp": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "虾仁200克 虾仁200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「虾仁」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片250克",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片250g",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片0.25千克",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片0.25公斤",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片0.25kg",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片半斤",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片5两",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片0克",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "去刺鱼片100000克",
+      "accepted": true,
+      "entries": {
+        "fish": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "去刺鱼片200克 去刺鱼片200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「去刺鱼片」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮250克",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮250g",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮0.25千克",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮0.25公斤",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮0.25kg",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮半斤",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮5两",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮0克",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "虾皮100000克",
+      "accepted": true,
+      "entries": {
+        "dried-shrimp": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "虾皮200克 虾皮200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「虾皮」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭250克",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭250g",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭0.25千克",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭0.25公斤",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭0.25kg",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭半斤",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭5两",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭0克",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "熟米饭100000克",
+      "accepted": true,
+      "entries": {
+        "cooked-rice": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "熟米饭200克 熟米饭200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「熟米饭」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米250克",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米250g",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米0.25千克",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米0.25公斤",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米0.25kg",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米半斤",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米5两",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米0克",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "大米100000克",
+      "accepted": true,
+      "entries": {
+        "rice": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "大米200克 大米200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「大米」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米250克",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米250g",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米0.25千克",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米0.25公斤",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米0.25kg",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米半斤",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米5两",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米0克",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "小米100000克",
+      "accepted": true,
+      "entries": {
+        "millet": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "小米200克 小米200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「小米」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面250克",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面250g",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面0.25千克",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面0.25公斤",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面0.25kg",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面半斤",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面5两",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面0克",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "挂面100000克",
+      "accepted": true,
+      "entries": {
+        "noodles": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "挂面200克 挂面200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「挂面」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉250克",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉250g",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉0.25千克",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉0.25公斤",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉0.25kg",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉半斤",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉5两",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉0克",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "面粉100000克",
+      "accepted": true,
+      "entries": {
+        "flour": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "面粉200克 面粉200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「面粉」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝250克",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝250g",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝0.25千克",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝0.25公斤",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝0.25kg",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝半斤",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝5两",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝0克",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干粉丝100000克",
+      "accepted": true,
+      "entries": {
+        "vermicelli": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "干粉丝200克 干粉丝200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「干粉丝」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜250克",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜250g",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜0.25千克",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜0.25公斤",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜0.25kg",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜半斤",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜5两",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜２５０ｇ",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜０．２５ＫＧ",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜0克",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 0,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "quantity-unit",
+      "input": "干紫菜100000克",
+      "accepted": true,
+      "entries": {
+        "seaweed": {
+          "value": 100000,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-ingredient",
+      "input": "干紫菜200克 干紫菜200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「干紫菜」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "番茄2个",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 2,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "番茄3枚",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 3,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "番茄0颗",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 0,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "黄瓜2个",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 2,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "黄瓜3枚",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 3,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "黄瓜0颗",
+      "accepted": true,
+      "entries": {
+        "cucumber": {
+          "value": 0,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "土豆2个",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 2,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "土豆3枚",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 3,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "土豆0颗",
+      "accepted": true,
+      "entries": {
+        "potato": {
+          "value": 0,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "胡萝卜2个",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 2,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "胡萝卜3枚",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 3,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "胡萝卜0颗",
+      "accepted": true,
+      "entries": {
+        "carrot": {
+          "value": 0,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "红薯2个",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 2,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "红薯3枚",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 3,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "piece-estimate-input",
+      "input": "红薯0颗",
+      "accepted": true,
+      "entries": {
+        "sweetpotato": {
+          "value": 0,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "repeated-alias",
+      "input": "鸡蛋2个 蛋3枚",
+      "accepted": false,
+      "entries": null,
+      "error": "「鸡蛋」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "repeated-alias",
+      "input": "马铃薯200克 洋芋300克",
+      "accepted": false,
+      "entries": null,
+      "error": "「土豆」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "repeated-alias",
+      "input": "豆皮100克 千张200克",
+      "accepted": false,
+      "entries": null,
+      "error": "「豆腐皮」填了两次，请合成一个现有数量。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "",
+      "accepted": false,
+      "entries": null,
+      "error": "输入食材和数量，例如「鸡蛋4个」。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "豆腐100克",
+      "accepted": false,
+      "entries": null,
+      "error": "请写清「豆腐」的种类，例如北豆腐或嫩豆腐。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "鸡精100克",
+      "accepted": false,
+      "entries": null,
+      "error": "没有识别「鸡精100克」。可按「鸡蛋4个 土豆半斤」填写，或点选食材。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "鸡蛋半个",
+      "accepted": false,
+      "entries": null,
+      "error": "请核对「鸡蛋」的数量，可使用整数个。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "鸡蛋1.5个",
+      "accepted": false,
+      "entries": null,
+      "error": "请核对「鸡蛋」的数量，可使用整数个。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "鸡蛋100克",
+      "accepted": false,
+      "entries": null,
+      "error": "请核对「鸡蛋」的数量，可使用整数个。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "牛肉2个",
+      "accepted": false,
+      "entries": null,
+      "error": "请核对「牛肉」的数量，可使用整数克或可换算的重量。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "金针菇2个",
+      "accepted": false,
+      "entries": null,
+      "error": "请核对「金针菇」的数量，可使用整数克或可换算的重量。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "土豆0.1克",
+      "accepted": false,
+      "entries": null,
+      "error": "请核对「土豆」的数量，可使用整数克或可换算的重量。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "土豆半克",
+      "accepted": false,
+      "entries": null,
+      "error": "请核对「土豆」的数量，可使用整数克或可换算的重量。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "土豆-1克",
+      "accepted": false,
+      "entries": null,
+      "error": "没有识别「土豆-1克」。可按「鸡蛋4个 土豆半斤」填写，或点选食材。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "土豆1e3克",
+      "accepted": false,
+      "entries": null,
+      "error": "没有识别「e3克」。可按「鸡蛋4个 土豆半斤」填写，或点选食材。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "土豆1,000克",
+      "accepted": false,
+      "entries": null,
+      "error": "没有识别「000克」。可按「鸡蛋4个 土豆半斤」填写，或点选食材。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "土豆100001克",
+      "accepted": false,
+      "entries": null,
+      "error": "请核对「土豆」的数量，可使用整数克或可换算的重量。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "番茄667个",
+      "accepted": false,
+      "entries": null,
+      "error": "请核对「番茄」的数量，可使用整数克或可换算的重量。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "土豆250克 鸡精10克",
+      "accepted": false,
+      "entries": null,
+      "error": "没有识别「鸡精10克」。可按「鸡蛋4个 土豆半斤」填写，或点选食材。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "土豆250克多一点",
+      "accepted": false,
+      "entries": null,
+      "error": "没有识别「多一点」。可按「鸡蛋4个 土豆半斤」填写，或点选食材。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "250克土豆",
+      "accepted": false,
+      "entries": null,
+      "error": "没有识别「250克土豆」。可按「鸡蛋4个 土豆半斤」填写，或点选食材。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "土豆一斤",
+      "accepted": false,
+      "entries": null,
+      "error": "没有识别「土豆一斤」。可按「鸡蛋4个 土豆半斤」填写，或点选食材。"
+    },
+    {
+      "group": "invalid-or-unsupported",
+      "input": "鸡蛋4个。土豆半斤",
+      "accepted": false,
+      "entries": null,
+      "error": "没有识别「。土豆半斤」。可按「鸡蛋4个 土豆半斤」填写，或点选食材。"
+    },
+    {
+      "group": "batch-limit",
+      "input": "番茄200克 黄瓜200克 土豆200克 胡萝卜200克 葱200克 蒜200克 姜200克 洋葱200克 包菜200克 大白菜200克 小青菜200克 菠菜200克 韭菜200克 西兰花200克 花菜200克 茄子200克 鲜香菇200克 金针菇200克 绿豆芽200克 藕200克 青椒200克 芹菜200克 玉米粒200克 冬瓜200克 南瓜200克 红薯200克 生菜200克 西葫芦200克 山药200克 鸡蛋2个",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 200,
+          "unit": "克"
+        },
+        "cucumber": {
+          "value": 200,
+          "unit": "克"
+        },
+        "potato": {
+          "value": 200,
+          "unit": "克"
+        },
+        "carrot": {
+          "value": 200,
+          "unit": "克"
+        },
+        "scallion": {
+          "value": 200,
+          "unit": "克"
+        },
+        "garlic": {
+          "value": 200,
+          "unit": "克"
+        },
+        "ginger": {
+          "value": 200,
+          "unit": "克"
+        },
+        "onion": {
+          "value": 200,
+          "unit": "克"
+        },
+        "cabbage": {
+          "value": 200,
+          "unit": "克"
+        },
+        "napa": {
+          "value": 200,
+          "unit": "克"
+        },
+        "bokchoy": {
+          "value": 200,
+          "unit": "克"
+        },
+        "spinach": {
+          "value": 200,
+          "unit": "克"
+        },
+        "chives": {
+          "value": 200,
+          "unit": "克"
+        },
+        "broccoli": {
+          "value": 200,
+          "unit": "克"
+        },
+        "cauliflower": {
+          "value": 200,
+          "unit": "克"
+        },
+        "eggplant": {
+          "value": 200,
+          "unit": "克"
+        },
+        "shiitake": {
+          "value": 200,
+          "unit": "克"
+        },
+        "enoki": {
+          "value": 200,
+          "unit": "克"
+        },
+        "sprouts": {
+          "value": 200,
+          "unit": "克"
+        },
+        "lotus": {
+          "value": 200,
+          "unit": "克"
+        },
+        "pepper": {
+          "value": 200,
+          "unit": "克"
+        },
+        "celery": {
+          "value": 200,
+          "unit": "克"
+        },
+        "corn": {
+          "value": 200,
+          "unit": "克"
+        },
+        "wintermelon": {
+          "value": 200,
+          "unit": "克"
+        },
+        "pumpkin": {
+          "value": 200,
+          "unit": "克"
+        },
+        "sweetpotato": {
+          "value": 200,
+          "unit": "克"
+        },
+        "lettuce": {
+          "value": 200,
+          "unit": "克"
+        },
+        "zucchini": {
+          "value": 200,
+          "unit": "克"
+        },
+        "yam": {
+          "value": 200,
+          "unit": "克"
+        },
+        "egg": {
+          "value": 2,
+          "unit": "个"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "batch-limit",
+      "input": "番茄200克 黄瓜200克 土豆200克 胡萝卜200克 葱200克 蒜200克 姜200克 洋葱200克 包菜200克 大白菜200克 小青菜200克 菠菜200克 韭菜200克 西兰花200克 花菜200克 茄子200克 鲜香菇200克 金针菇200克 绿豆芽200克 藕200克 青椒200克 芹菜200克 玉米粒200克 冬瓜200克 南瓜200克 红薯200克 生菜200克 西葫芦200克 山药200克 鸡蛋2个 北豆腐200克",
+      "accepted": false,
+      "entries": null,
+      "error": "每次最多保存 30 样食材。"
+    },
+    {
+      "group": "mixed-batch",
+      "input": "番茄2个 鸡蛋4个 土豆半斤",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 2,
+          "unit": "个"
+        },
+        "egg": {
+          "value": 4,
+          "unit": "个"
+        },
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "mixed-batch",
+      "input": "西红柿２００克，鸡蛋４枚；洋芋半斤",
+      "accepted": true,
+      "entries": {
+        "tomato": {
+          "value": 200,
+          "unit": "克"
+        },
+        "egg": {
+          "value": 4,
+          "unit": "个"
+        },
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    },
+    {
+      "group": "mixed-batch",
+      "input": "鸡蛋4个土豆半斤",
+      "accepted": true,
+      "entries": {
+        "egg": {
+          "value": 4,
+          "unit": "个"
+        },
+        "potato": {
+          "value": 250,
+          "unit": "克"
+        }
+      },
+      "error": null
+    }
+  ]
+}

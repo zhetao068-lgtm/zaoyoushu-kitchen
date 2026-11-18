@@ -1,0 +1,1640 @@
+{
+  "artifact": {
+    "bytes": 2263560,
+    "sha256": "f428a0c2d2f8de7af2f3ac7435635af5c054d77110c5c6dd49300cdc1b2839d4"
+  },
+  "environment": {
+    "python": "3.11.3",
+    "platform": "Windows",
+    "platformRelease": "10",
+    "machine": "AMD64",
+    "playwright": "1.62.0",
+    "channel": "msedge",
+    "browser": "157.0.4341.60",
+    "browserPlugin": "not available; regular Playwright used"
+  },
+  "method": "Fresh nonpersistent browser contexts; offline file URL; touch enabled; CSS pixels. Only enabled controls intersecting the viewport and the active modal are measured.",
+  "limitation": "Border-box measurements omit pseudo-elements, labels and WCAG exceptions. This is a geometry audit and an emulated functional flow, not a WCAG conformance or real-handset usability assessment.",
+  "viewports": [
+    {
+      "viewportCssPx": {
+        "width": 320,
+        "height": 568
+      },
+      "checkpointsPassed": [
+        "initial-page-and-twelve-recipes",
+        "unknown-stock-requires-verification",
+        "invalid-mixed-batch-keeps-storage-unchanged",
+        "alias-capture-and-return-to-library",
+        "forward-backward-and-all-steps",
+        "finish-deducts-280-grams-and-four-eggs",
+        "reload-retains-finished-stock"
+      ],
+      "recipeSteps": 4,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0,
+      "samples": [
+        {
+          "state": "initial-library",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 20,
+          "below24By24": 2,
+          "below44By44": 14,
+          "measurements": [
+            {
+              "tag": "a",
+              "id": null,
+              "label": "灶有数",
+              "widthCssPx": 103.609,
+              "heightCssPx": 31.891,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "找菜",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "库存",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "买菜",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "我的",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "input",
+              "id": "library-search",
+              "label": "搜菜名、食材或做法",
+              "widthCssPx": 167,
+              "heightCssPx": 46,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "搜索",
+              "widthCssPx": 60,
+              "heightCssPx": 48,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "番茄炒蛋",
+              "widthCssPx": 68,
+              "heightCssPx": 39,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "鸡蛋 土豆",
+              "widthCssPx": 71.141,
+              "heightCssPx": 39,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "清蒸",
+              "widthCssPx": 40,
+              "heightCssPx": 39,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "全部",
+              "widthCssPx": 42,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "家里能做",
+              "widthCssPx": 68,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "20 分钟内",
+              "widthCssPx": 72.344,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "select",
+              "id": "library-category",
+              "label": "菜谱分类",
+              "widthCssPx": 146,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "servings-less",
+              "label": "减少一人",
+              "widthCssPx": 35,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "servings-more",
+              "label": "增加一人",
+              "widthCssPx": 35,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：番茄炒蛋",
+              "widthCssPx": 72,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：番茄炒蛋",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：番茄鸡蛋汤",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：番茄鸡蛋汤",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            }
+          ]
+        },
+        {
+          "state": "shortage-dialog",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 3,
+          "below24By24": 0,
+          "below44By44": 1,
+          "measurements": [
+            {
+              "tag": "button",
+              "id": null,
+              "label": "关闭食材核对",
+              "widthCssPx": 38,
+              "heightCssPx": 38,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "shortage-stock",
+              "label": "补录库存",
+              "widthCssPx": 102,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "shortage-shop",
+              "label": "加入待买清单",
+              "widthCssPx": 136,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "pantry-capture",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 9,
+          "below24By24": 0,
+          "below44By44": 2,
+          "measurements": [
+            {
+              "tag": "a",
+              "id": null,
+              "label": "灶有数",
+              "widthCssPx": 103.609,
+              "heightCssPx": 31.891,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "找菜",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "库存",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "买菜",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "我的",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "toggle-mode",
+              "label": "查看示例",
+              "widthCssPx": 60,
+              "heightCssPx": 27.5,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "input",
+              "id": "stock-capture-input",
+              "label": "添加或更新食材",
+              "widthCssPx": 264,
+              "heightCssPx": 46,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "保存并找菜",
+              "widthCssPx": 119,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "pantry-quick",
+              "label": "点选食材",
+              "widthCssPx": 102,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "cooking-step",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 2,
+          "below24By24": 0,
+          "below44By44": 0,
+          "measurements": [
+            {
+              "tag": "button",
+              "id": "next-cook-step",
+              "label": "下一步",
+              "widthCssPx": 77,
+              "heightCssPx": 44,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "plan-recipe",
+              "label": "退出做菜",
+              "widthCssPx": 94,
+              "heightCssPx": 44,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "shopping-list",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 8,
+          "below24By24": 0,
+          "below44By44": 3,
+          "measurements": [
+            {
+              "tag": "a",
+              "id": null,
+              "label": "灶有数",
+              "widthCssPx": 103.609,
+              "heightCssPx": 31.891,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "找菜",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "库存",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "买菜",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "我的",
+              "widthCssPx": 80,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "继续找菜 →",
+              "widthCssPx": 81.297,
+              "heightCssPx": 27.5,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "从这顿移出：番茄炒蛋",
+              "widthCssPx": 107.594,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "finish-meal",
+              "label": "做完这顿",
+              "widthCssPx": 102,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "finish-confirmation",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 2,
+          "below24By24": 0,
+          "below44By44": 1,
+          "measurements": [
+            {
+              "tag": "button",
+              "id": null,
+              "label": "关闭确认",
+              "widthCssPx": 38,
+              "heightCssPx": 38,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "confirm-finish",
+              "label": "确认扣减库存",
+              "widthCssPx": 246,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "checkpointsPassed": [
+        "initial-page-and-twelve-recipes",
+        "unknown-stock-requires-verification",
+        "invalid-mixed-batch-keeps-storage-unchanged",
+        "alias-capture-and-return-to-library",
+        "forward-backward-and-all-steps",
+        "finish-deducts-280-grams-and-four-eggs",
+        "reload-retains-finished-stock"
+      ],
+      "recipeSteps": 4,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0,
+      "samples": [
+        {
+          "state": "initial-library",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 28,
+          "below24By24": 6,
+          "below44By44": 22,
+          "measurements": [
+            {
+              "tag": "a",
+              "id": null,
+              "label": "灶有数",
+              "widthCssPx": 103.609,
+              "heightCssPx": 31.891,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "找菜",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "库存",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "买菜",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "我的",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "input",
+              "id": "library-search",
+              "label": "搜菜名、食材或做法",
+              "widthCssPx": 219,
+              "heightCssPx": 46,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "搜索",
+              "widthCssPx": 60,
+              "heightCssPx": 48,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "番茄炒蛋",
+              "widthCssPx": 68,
+              "heightCssPx": 39,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "鸡蛋 土豆",
+              "widthCssPx": 71.141,
+              "heightCssPx": 39,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "清蒸",
+              "widthCssPx": 40,
+              "heightCssPx": 39,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "全部",
+              "widthCssPx": 46,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "家里能做",
+              "widthCssPx": 72,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "20 分钟内",
+              "widthCssPx": 76.344,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "select",
+              "id": "library-category",
+              "label": "菜谱分类",
+              "widthCssPx": 146,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "servings-less",
+              "label": "减少一人",
+              "widthCssPx": 35,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "servings-more",
+              "label": "增加一人",
+              "widthCssPx": 35,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：番茄炒蛋",
+              "widthCssPx": 72,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：番茄炒蛋",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：番茄鸡蛋汤",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：番茄鸡蛋汤",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：家常煎豆腐",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：家常煎豆腐",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：拍黄瓜",
+              "widthCssPx": 54,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：拍黄瓜",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：酸辣土豆丝",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：酸辣土豆丝",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：蒜蓉小青菜",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：蒜蓉小青菜",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            }
+          ]
+        },
+        {
+          "state": "shortage-dialog",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 3,
+          "below24By24": 0,
+          "below44By44": 1,
+          "measurements": [
+            {
+              "tag": "button",
+              "id": null,
+              "label": "关闭食材核对",
+              "widthCssPx": 38,
+              "heightCssPx": 38,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "shortage-stock",
+              "label": "补录库存",
+              "widthCssPx": 137,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "shortage-shop",
+              "label": "加入待买清单",
+              "widthCssPx": 171,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "pantry-capture",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 9,
+          "below24By24": 0,
+          "below44By44": 2,
+          "measurements": [
+            {
+              "tag": "a",
+              "id": null,
+              "label": "灶有数",
+              "widthCssPx": 103.609,
+              "heightCssPx": 31.891,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "找菜",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "库存",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "买菜",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "我的",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "toggle-mode",
+              "label": "查看示例",
+              "widthCssPx": 60,
+              "heightCssPx": 27.5,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "input",
+              "id": "stock-capture-input",
+              "label": "添加或更新食材",
+              "widthCssPx": 322,
+              "heightCssPx": 46,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "保存并找菜",
+              "widthCssPx": 119,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "pantry-quick",
+              "label": "点选食材",
+              "widthCssPx": 102,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "cooking-step",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 3,
+          "below24By24": 0,
+          "below44By44": 1,
+          "measurements": [
+            {
+              "tag": "summary",
+              "id": "recipe-safety-title",
+              "label": "动手前看安全要点",
+              "widthCssPx": 284,
+              "heightCssPx": 28.047,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "next-cook-step",
+              "label": "下一步",
+              "widthCssPx": 77,
+              "heightCssPx": 44,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "plan-recipe",
+              "label": "退出做菜",
+              "widthCssPx": 94,
+              "heightCssPx": 44,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "shopping-list",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 8,
+          "below24By24": 0,
+          "below44By44": 3,
+          "measurements": [
+            {
+              "tag": "a",
+              "id": null,
+              "label": "灶有数",
+              "widthCssPx": 103.609,
+              "heightCssPx": 31.891,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "找菜",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "库存",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "买菜",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "我的",
+              "widthCssPx": 97.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "继续找菜 →",
+              "widthCssPx": 81.297,
+              "heightCssPx": 27.5,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "从这顿移出：番茄炒蛋",
+              "widthCssPx": 107.594,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "finish-meal",
+              "label": "做完这顿",
+              "widthCssPx": 102,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "finish-confirmation",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 2,
+          "below24By24": 0,
+          "below44By44": 1,
+          "measurements": [
+            {
+              "tag": "button",
+              "id": null,
+              "label": "关闭确认",
+              "widthCssPx": 38,
+              "heightCssPx": 38,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "confirm-finish",
+              "label": "确认扣减库存",
+              "widthCssPx": 316,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "viewportCssPx": {
+        "width": 430,
+        "height": 932
+      },
+      "checkpointsPassed": [
+        "initial-page-and-twelve-recipes",
+        "unknown-stock-requires-verification",
+        "invalid-mixed-batch-keeps-storage-unchanged",
+        "alias-capture-and-return-to-library",
+        "forward-backward-and-all-steps",
+        "finish-deducts-280-grams-and-four-eggs",
+        "reload-retains-finished-stock"
+      ],
+      "recipeSteps": 4,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0,
+      "samples": [
+        {
+          "state": "initial-library",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 32,
+          "below24By24": 8,
+          "below44By44": 26,
+          "measurements": [
+            {
+              "tag": "a",
+              "id": null,
+              "label": "灶有数",
+              "widthCssPx": 103.609,
+              "heightCssPx": 31.891,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "找菜",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "库存",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "买菜",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "我的",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "input",
+              "id": "library-search",
+              "label": "搜菜名、食材或做法",
+              "widthCssPx": 259,
+              "heightCssPx": 46,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "搜索",
+              "widthCssPx": 60,
+              "heightCssPx": 48,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "番茄炒蛋",
+              "widthCssPx": 68,
+              "heightCssPx": 39,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "鸡蛋 土豆",
+              "widthCssPx": 71.141,
+              "heightCssPx": 39,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "清蒸",
+              "widthCssPx": 40,
+              "heightCssPx": 39,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "全部",
+              "widthCssPx": 46,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "家里能做",
+              "widthCssPx": 72,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "20 分钟内",
+              "widthCssPx": 76.344,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "select",
+              "id": "library-category",
+              "label": "菜谱分类",
+              "widthCssPx": 146,
+              "heightCssPx": 41,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "servings-less",
+              "label": "减少一人",
+              "widthCssPx": 35,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "servings-more",
+              "label": "增加一人",
+              "widthCssPx": 35,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：番茄炒蛋",
+              "widthCssPx": 72,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：番茄炒蛋",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：番茄鸡蛋汤",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：番茄鸡蛋汤",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：家常煎豆腐",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：家常煎豆腐",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：拍黄瓜",
+              "widthCssPx": 54,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：拍黄瓜",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：酸辣土豆丝",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：酸辣土豆丝",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：蒜蓉小青菜",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：蒜蓉小青菜",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：清炒包菜",
+              "widthCssPx": 72,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：清炒包菜",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "看做法：白灼西兰花",
+              "widthCssPx": 90,
+              "heightCssPx": 22.5,
+              "below24By24": true,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "做这道：白灼西兰花",
+              "widthCssPx": 76,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            }
+          ]
+        },
+        {
+          "state": "shortage-dialog",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 3,
+          "below24By24": 0,
+          "below44By44": 1,
+          "measurements": [
+            {
+              "tag": "button",
+              "id": null,
+              "label": "关闭食材核对",
+              "widthCssPx": 38,
+              "heightCssPx": 38,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "shortage-stock",
+              "label": "补录库存",
+              "widthCssPx": 157,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "shortage-shop",
+              "label": "加入待买清单",
+              "widthCssPx": 191,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "pantry-capture",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 9,
+          "below24By24": 0,
+          "below44By44": 2,
+          "measurements": [
+            {
+              "tag": "a",
+              "id": null,
+              "label": "灶有数",
+              "widthCssPx": 103.609,
+              "heightCssPx": 31.891,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "找菜",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "库存",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "买菜",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "我的",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "toggle-mode",
+              "label": "查看示例",
+              "widthCssPx": 60,
+              "heightCssPx": 27.5,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "input",
+              "id": "stock-capture-input",
+              "label": "添加或更新食材",
+              "widthCssPx": 362,
+              "heightCssPx": 46,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "保存并找菜",
+              "widthCssPx": 119,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "button",
+              "id": "pantry-quick",
+              "label": "点选食材",
+              "widthCssPx": 102,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "cooking-step",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 2,
+          "below24By24": 0,
+          "below44By44": 2,
+          "measurements": [
+            {
+              "tag": "button",
+              "id": null,
+              "label": "关闭做法",
+              "widthCssPx": 38,
+              "heightCssPx": 38,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "summary",
+              "id": "recipe-safety-title",
+              "label": "动手前看安全要点",
+              "widthCssPx": 324,
+              "heightCssPx": 28.047,
+              "below24By24": false,
+              "below44By44": true
+            }
+          ]
+        },
+        {
+          "state": "shopping-list",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 8,
+          "below24By24": 0,
+          "below44By44": 3,
+          "measurements": [
+            {
+              "tag": "a",
+              "id": null,
+              "label": "灶有数",
+              "widthCssPx": 103.609,
+              "heightCssPx": 31.891,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "找菜",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "库存",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "买菜",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "我的",
+              "widthCssPx": 107.5,
+              "heightCssPx": 51,
+              "below24By24": false,
+              "below44By44": false
+            },
+            {
+              "tag": "a",
+              "id": null,
+              "label": "继续找菜 →",
+              "widthCssPx": 81.297,
+              "heightCssPx": 27.5,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": null,
+              "label": "从这顿移出：番茄炒蛋",
+              "widthCssPx": 107.594,
+              "heightCssPx": 40,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "finish-meal",
+              "label": "做完这顿",
+              "widthCssPx": 102,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        },
+        {
+          "state": "finish-confirmation",
+          "horizontalOverflowCssPx": 0,
+          "dialogOverflowCssPx": 0,
+          "controls": 2,
+          "below24By24": 0,
+          "below44By44": 1,
+          "measurements": [
+            {
+              "tag": "button",
+              "id": null,
+              "label": "关闭确认",
+              "widthCssPx": 38,
+              "heightCssPx": 38,
+              "below24By24": false,
+              "below44By44": true
+            },
+            {
+              "tag": "button",
+              "id": "confirm-finish",
+              "label": "确认扣减库存",
+              "widthCssPx": 356,
+              "heightCssPx": 45,
+              "below24By24": false,
+              "below44By44": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
