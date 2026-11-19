@@ -1,0 +1,1629 @@
+{
+  "artifact": {
+    "bytes": 2263560,
+    "sha256": "f428a0c2d2f8de7af2f3ac7435635af5c054d77110c5c6dd49300cdc1b2839d4"
+  },
+  "environment": {
+    "node": "v24.22.3",
+    "platform": "win32",
+    "architecture": "x64",
+    "unicode": "17.0",
+    "icu": "78.3"
+  },
+  "method": "All unordered pairs of primary ingredient names in catalog order. Empty stock, empty ready set, all recipes, no category filter. A single ASCII space is the comparison baseline.",
+  "inventoryIngredients": 47,
+  "indexedRecipes": 1349,
+  "pairs": 1081,
+  "nonemptyBaselines": 544,
+  "baselineQueries": 1081,
+  "variantQueries": 8648,
+  "summaries": {
+    "ideographic-comma": {
+      "separator": "、",
+      "comparisons": 1081,
+      "sameSet": 1081,
+      "sameOrder": 1081,
+      "fewerResults": 0,
+      "moreResults": 0,
+      "emptyAfterNonemptyBaseline": 0,
+      "changedSetWithUnsplitNormalizedQuery": 0,
+      "changedSetExamples": [],
+      "changedOrderOnlyExamples": []
+    },
+    "comma": {
+      "separator": ",",
+      "comparisons": 1081,
+      "sameSet": 1081,
+      "sameOrder": 1081,
+      "fewerResults": 0,
+      "moreResults": 0,
+      "emptyAfterNonemptyBaseline": 0,
+      "changedSetWithUnsplitNormalizedQuery": 0,
+      "changedSetExamples": [],
+      "changedOrderOnlyExamples": []
+    },
+    "plus": {
+      "separator": "+",
+      "comparisons": 1081,
+      "sameSet": 1081,
+      "sameOrder": 1081,
+      "fewerResults": 0,
+      "moreResults": 0,
+      "emptyAfterNonemptyBaseline": 0,
+      "changedSetWithUnsplitNormalizedQuery": 0,
+      "changedSetExamples": [],
+      "changedOrderOnlyExamples": []
+    },
+    "fullwidth-plus": {
+      "separator": "＋",
+      "comparisons": 1081,
+      "sameSet": 1081,
+      "sameOrder": 1081,
+      "fewerResults": 0,
+      "moreResults": 0,
+      "emptyAfterNonemptyBaseline": 0,
+      "changedSetWithUnsplitNormalizedQuery": 0,
+      "changedSetExamples": [],
+      "changedOrderOnlyExamples": []
+    },
+    "slash": {
+      "separator": "/",
+      "comparisons": 1081,
+      "sameSet": 1081,
+      "sameOrder": 1081,
+      "fewerResults": 0,
+      "moreResults": 0,
+      "emptyAfterNonemptyBaseline": 0,
+      "changedSetWithUnsplitNormalizedQuery": 0,
+      "changedSetExamples": [],
+      "changedOrderOnlyExamples": []
+    },
+    "and": {
+      "separator": "和",
+      "comparisons": 1081,
+      "sameSet": 909,
+      "sameOrder": 762,
+      "fewerResults": 172,
+      "moreResults": 0,
+      "emptyAfterNonemptyBaseline": 172,
+      "changedSetWithUnsplitNormalizedQuery": 172,
+      "changedSetExamples": [
+        {
+          "foodIds": [
+            "tomato",
+            "bokchoy"
+          ],
+          "baselineQuery": "番茄 小青菜",
+          "query": "番茄和小青菜",
+          "normalizedQuery": "番茄和小小青菜",
+          "splitParts": [
+            "番茄和小小青菜"
+          ],
+          "baselineResults": 4,
+          "results": 0,
+          "missingIds": [
+            "tomato-greens-noodles",
+            "open-tomato-shrimp-buckwheat-noodles",
+            "open-tomato-egg-braised-pancake",
+            "open-dough-drop-soup"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-greens-noodles",
+              "name": "番茄青菜汤面",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-shrimp-buckwheat-noodles",
+              "name": "番茄虾仁荞麦面",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-egg-braised-pancake",
+              "name": "番茄鸡蛋烩饼",
+              "score": 34
+            },
+            {
+              "id": "open-dough-drop-soup",
+              "name": "疙瘩汤",
+              "score": 20
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "shiitake"
+          ],
+          "baselineQuery": "番茄 鲜香菇",
+          "query": "番茄和鲜香菇",
+          "normalizedQuery": "番茄和鲜鲜香菇",
+          "splitParts": [
+            "番茄和鲜鲜香菇"
+          ],
+          "baselineResults": 1,
+          "results": 0,
+          "missingIds": [
+            "htc-1157639fe340e"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "htc-1157639fe340e",
+              "name": "荔枝肉",
+              "score": 20
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "ground-pork"
+          ],
+          "baselineQuery": "番茄 猪肉末",
+          "query": "番茄和猪肉末",
+          "normalizedQuery": "番茄和猪瘦猪肉末",
+          "splitParts": [
+            "番茄和猪瘦猪肉末"
+          ],
+          "baselineResults": 3,
+          "results": 0,
+          "missingIds": [
+            "tomato-pork-noodles",
+            "open-home-style-soup-rice",
+            "gov-hakka-25"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-pork-noodles",
+              "name": "番茄肉末面",
+              "score": 34
+            },
+            {
+              "id": "open-home-style-soup-rice",
+              "name": "家常汤饭",
+              "score": 20
+            },
+            {
+              "id": "gov-hakka-25",
+              "name": "梅干菜通心哈斯面包",
+              "score": 20
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "fish"
+          ],
+          "baselineQuery": "番茄 去刺鱼片",
+          "query": "番茄和去刺鱼片",
+          "normalizedQuery": "番茄和去刺去刺鱼片",
+          "splitParts": [
+            "番茄和去刺去刺鱼片"
+          ],
+          "baselineResults": 1,
+          "results": 0,
+          "missingIds": [
+            "tomato-fish-soup"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-fish-soup",
+              "name": "番茄鱼片汤",
+              "score": 34
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "cooked-rice"
+          ],
+          "baselineQuery": "番茄 熟米饭",
+          "query": "番茄和熟米饭",
+          "normalizedQuery": "番茄和熟熟米饭",
+          "splitParts": [
+            "番茄和熟熟米饭"
+          ],
+          "baselineResults": 1,
+          "results": 0,
+          "missingIds": [
+            "tomato-simmered-rice"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-simmered-rice",
+              "name": "番茄烩饭",
+              "score": 34
+            }
+          ],
+          "topFive": []
+        }
+      ],
+      "changedOrderOnlyExamples": [
+        {
+          "foodIds": [
+            "tomato",
+            "cucumber"
+          ],
+          "baselineQuery": "番茄 黄瓜",
+          "query": "番茄和黄瓜",
+          "normalizedQuery": "番茄和黄瓜",
+          "splitParts": [
+            "番茄",
+            "黄瓜"
+          ],
+          "baselineResults": 8,
+          "results": 8,
+          "missingIds": [],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "enwiki-18234",
+              "name": "番茄、黄瓜和甜椒沙拉",
+              "score": 48
+            },
+            {
+              "id": "enwiki-199080",
+              "name": "黄瓜番茄沙拉",
+              "score": 48
+            },
+            {
+              "id": "open-chickpea-tomato-salad",
+              "name": "鹰嘴豆番茄沙拉",
+              "score": 34
+            },
+            {
+              "id": "wiki-33381",
+              "name": "冷中华",
+              "score": 20
+            },
+            {
+              "id": "open-fruit-veg-salad",
+              "name": "蔬果沙拉",
+              "score": 20
+            }
+          ],
+          "topFive": [
+            {
+              "id": "enwiki-18234",
+              "name": "番茄、黄瓜和甜椒沙拉",
+              "score": 24
+            },
+            {
+              "id": "enwiki-199080",
+              "name": "黄瓜番茄沙拉",
+              "score": 24
+            },
+            {
+              "id": "wiki-33381",
+              "name": "冷中华",
+              "score": 10
+            },
+            {
+              "id": "open-fruit-veg-salad",
+              "name": "蔬果沙拉",
+              "score": 10
+            },
+            {
+              "id": "open-chicken-veggie-wrap",
+              "name": "蔬菜鸡肉卷",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "potato"
+          ],
+          "baselineQuery": "番茄 土豆",
+          "query": "番茄和土豆",
+          "normalizedQuery": "番茄和土豆",
+          "splitParts": [
+            "番茄",
+            "土豆"
+          ],
+          "baselineResults": 13,
+          "results": 13,
+          "missingIds": [],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "htc-90f04c224709a",
+              "name": "西红柿土豆炖牛肉",
+              "score": 48
+            },
+            {
+              "id": "htc-02e515d6befb2",
+              "name": "印度土豆花菜",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-braised-beef",
+              "name": "番茄炖牛肉",
+              "score": 34
+            },
+            {
+              "id": "htc-1bda94c2a4792",
+              "name": "利提巧卡",
+              "score": 20
+            },
+            {
+              "id": "htc-0ed628aba05a3",
+              "name": "肉蟹煲",
+              "score": 20
+            }
+          ],
+          "topFive": [
+            {
+              "id": "htc-90f04c224709a",
+              "name": "西红柿土豆炖牛肉",
+              "score": 24
+            },
+            {
+              "id": "htc-1bda94c2a4792",
+              "name": "利提巧卡",
+              "score": 10
+            },
+            {
+              "id": "htc-0ed628aba05a3",
+              "name": "肉蟹煲",
+              "score": 10
+            },
+            {
+              "id": "htc-419a5e174596d",
+              "name": "罗宋汤",
+              "score": 10
+            },
+            {
+              "id": "htc-02e515d6befb2",
+              "name": "印度土豆花菜",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "carrot"
+          ],
+          "baselineQuery": "番茄 胡萝卜",
+          "query": "番茄和胡萝卜",
+          "normalizedQuery": "番茄和胡萝卜",
+          "splitParts": [
+            "番茄",
+            "胡萝卜"
+          ],
+          "baselineResults": 8,
+          "results": 8,
+          "missingIds": [],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "htc-e708c271324aa",
+              "name": "番茄红酱",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-vegetable-soup",
+              "name": "番茄蔬菜汤",
+              "score": 34
+            },
+            {
+              "id": "htc-419a5e174596d",
+              "name": "罗宋汤",
+              "score": 20
+            },
+            {
+              "id": "htc-5097e0e1af4e2",
+              "name": "家常日本豆腐",
+              "score": 20
+            },
+            {
+              "id": "wiki-11067",
+              "name": "茄汁义大利面",
+              "score": 20
+            }
+          ],
+          "topFive": [
+            {
+              "id": "htc-419a5e174596d",
+              "name": "罗宋汤",
+              "score": 10
+            },
+            {
+              "id": "htc-5097e0e1af4e2",
+              "name": "家常日本豆腐",
+              "score": 10
+            },
+            {
+              "id": "htc-e708c271324aa",
+              "name": "番茄红酱",
+              "score": 10
+            },
+            {
+              "id": "wiki-11067",
+              "name": "茄汁义大利面",
+              "score": 10
+            },
+            {
+              "id": "open-tomato-vegetable-soup",
+              "name": "番茄蔬菜汤",
+              "score": 10
+            }
+          ]
+        }
+      ]
+    },
+    "with": {
+      "separator": "配",
+      "comparisons": 1081,
+      "sameSet": 909,
+      "sameOrder": 762,
+      "fewerResults": 172,
+      "moreResults": 0,
+      "emptyAfterNonemptyBaseline": 172,
+      "changedSetWithUnsplitNormalizedQuery": 172,
+      "changedSetExamples": [
+        {
+          "foodIds": [
+            "tomato",
+            "bokchoy"
+          ],
+          "baselineQuery": "番茄 小青菜",
+          "query": "番茄配小青菜",
+          "normalizedQuery": "番茄配小小青菜",
+          "splitParts": [
+            "番茄配小小青菜"
+          ],
+          "baselineResults": 4,
+          "results": 0,
+          "missingIds": [
+            "tomato-greens-noodles",
+            "open-tomato-shrimp-buckwheat-noodles",
+            "open-tomato-egg-braised-pancake",
+            "open-dough-drop-soup"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-greens-noodles",
+              "name": "番茄青菜汤面",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-shrimp-buckwheat-noodles",
+              "name": "番茄虾仁荞麦面",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-egg-braised-pancake",
+              "name": "番茄鸡蛋烩饼",
+              "score": 34
+            },
+            {
+              "id": "open-dough-drop-soup",
+              "name": "疙瘩汤",
+              "score": 20
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "shiitake"
+          ],
+          "baselineQuery": "番茄 鲜香菇",
+          "query": "番茄配鲜香菇",
+          "normalizedQuery": "番茄配鲜鲜香菇",
+          "splitParts": [
+            "番茄配鲜鲜香菇"
+          ],
+          "baselineResults": 1,
+          "results": 0,
+          "missingIds": [
+            "htc-1157639fe340e"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "htc-1157639fe340e",
+              "name": "荔枝肉",
+              "score": 20
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "ground-pork"
+          ],
+          "baselineQuery": "番茄 猪肉末",
+          "query": "番茄配猪肉末",
+          "normalizedQuery": "番茄配猪瘦猪肉末",
+          "splitParts": [
+            "番茄配猪瘦猪肉末"
+          ],
+          "baselineResults": 3,
+          "results": 0,
+          "missingIds": [
+            "tomato-pork-noodles",
+            "open-home-style-soup-rice",
+            "gov-hakka-25"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-pork-noodles",
+              "name": "番茄肉末面",
+              "score": 34
+            },
+            {
+              "id": "open-home-style-soup-rice",
+              "name": "家常汤饭",
+              "score": 20
+            },
+            {
+              "id": "gov-hakka-25",
+              "name": "梅干菜通心哈斯面包",
+              "score": 20
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "fish"
+          ],
+          "baselineQuery": "番茄 去刺鱼片",
+          "query": "番茄配去刺鱼片",
+          "normalizedQuery": "番茄配去刺去刺鱼片",
+          "splitParts": [
+            "番茄配去刺去刺鱼片"
+          ],
+          "baselineResults": 1,
+          "results": 0,
+          "missingIds": [
+            "tomato-fish-soup"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-fish-soup",
+              "name": "番茄鱼片汤",
+              "score": 34
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "cooked-rice"
+          ],
+          "baselineQuery": "番茄 熟米饭",
+          "query": "番茄配熟米饭",
+          "normalizedQuery": "番茄配熟熟米饭",
+          "splitParts": [
+            "番茄配熟熟米饭"
+          ],
+          "baselineResults": 1,
+          "results": 0,
+          "missingIds": [
+            "tomato-simmered-rice"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-simmered-rice",
+              "name": "番茄烩饭",
+              "score": 34
+            }
+          ],
+          "topFive": []
+        }
+      ],
+      "changedOrderOnlyExamples": [
+        {
+          "foodIds": [
+            "tomato",
+            "cucumber"
+          ],
+          "baselineQuery": "番茄 黄瓜",
+          "query": "番茄配黄瓜",
+          "normalizedQuery": "番茄配黄瓜",
+          "splitParts": [
+            "番茄",
+            "黄瓜"
+          ],
+          "baselineResults": 8,
+          "results": 8,
+          "missingIds": [],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "enwiki-18234",
+              "name": "番茄、黄瓜和甜椒沙拉",
+              "score": 48
+            },
+            {
+              "id": "enwiki-199080",
+              "name": "黄瓜番茄沙拉",
+              "score": 48
+            },
+            {
+              "id": "open-chickpea-tomato-salad",
+              "name": "鹰嘴豆番茄沙拉",
+              "score": 34
+            },
+            {
+              "id": "wiki-33381",
+              "name": "冷中华",
+              "score": 20
+            },
+            {
+              "id": "open-fruit-veg-salad",
+              "name": "蔬果沙拉",
+              "score": 20
+            }
+          ],
+          "topFive": [
+            {
+              "id": "enwiki-18234",
+              "name": "番茄、黄瓜和甜椒沙拉",
+              "score": 24
+            },
+            {
+              "id": "enwiki-199080",
+              "name": "黄瓜番茄沙拉",
+              "score": 24
+            },
+            {
+              "id": "wiki-33381",
+              "name": "冷中华",
+              "score": 10
+            },
+            {
+              "id": "open-fruit-veg-salad",
+              "name": "蔬果沙拉",
+              "score": 10
+            },
+            {
+              "id": "open-chicken-veggie-wrap",
+              "name": "蔬菜鸡肉卷",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "potato"
+          ],
+          "baselineQuery": "番茄 土豆",
+          "query": "番茄配土豆",
+          "normalizedQuery": "番茄配土豆",
+          "splitParts": [
+            "番茄",
+            "土豆"
+          ],
+          "baselineResults": 13,
+          "results": 13,
+          "missingIds": [],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "htc-90f04c224709a",
+              "name": "西红柿土豆炖牛肉",
+              "score": 48
+            },
+            {
+              "id": "htc-02e515d6befb2",
+              "name": "印度土豆花菜",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-braised-beef",
+              "name": "番茄炖牛肉",
+              "score": 34
+            },
+            {
+              "id": "htc-1bda94c2a4792",
+              "name": "利提巧卡",
+              "score": 20
+            },
+            {
+              "id": "htc-0ed628aba05a3",
+              "name": "肉蟹煲",
+              "score": 20
+            }
+          ],
+          "topFive": [
+            {
+              "id": "htc-90f04c224709a",
+              "name": "西红柿土豆炖牛肉",
+              "score": 24
+            },
+            {
+              "id": "htc-1bda94c2a4792",
+              "name": "利提巧卡",
+              "score": 10
+            },
+            {
+              "id": "htc-0ed628aba05a3",
+              "name": "肉蟹煲",
+              "score": 10
+            },
+            {
+              "id": "htc-419a5e174596d",
+              "name": "罗宋汤",
+              "score": 10
+            },
+            {
+              "id": "htc-02e515d6befb2",
+              "name": "印度土豆花菜",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "carrot"
+          ],
+          "baselineQuery": "番茄 胡萝卜",
+          "query": "番茄配胡萝卜",
+          "normalizedQuery": "番茄配胡萝卜",
+          "splitParts": [
+            "番茄",
+            "胡萝卜"
+          ],
+          "baselineResults": 8,
+          "results": 8,
+          "missingIds": [],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "htc-e708c271324aa",
+              "name": "番茄红酱",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-vegetable-soup",
+              "name": "番茄蔬菜汤",
+              "score": 34
+            },
+            {
+              "id": "htc-419a5e174596d",
+              "name": "罗宋汤",
+              "score": 20
+            },
+            {
+              "id": "htc-5097e0e1af4e2",
+              "name": "家常日本豆腐",
+              "score": 20
+            },
+            {
+              "id": "wiki-11067",
+              "name": "茄汁义大利面",
+              "score": 20
+            }
+          ],
+          "topFive": [
+            {
+              "id": "htc-419a5e174596d",
+              "name": "罗宋汤",
+              "score": 10
+            },
+            {
+              "id": "htc-5097e0e1af4e2",
+              "name": "家常日本豆腐",
+              "score": 10
+            },
+            {
+              "id": "htc-e708c271324aa",
+              "name": "番茄红酱",
+              "score": 10
+            },
+            {
+              "id": "wiki-11067",
+              "name": "茄汁义大利面",
+              "score": 10
+            },
+            {
+              "id": "open-tomato-vegetable-soup",
+              "name": "番茄蔬菜汤",
+              "score": 10
+            }
+          ]
+        }
+      ]
+    },
+    "adjacent": {
+      "separator": "",
+      "comparisons": 1081,
+      "sameSet": 909,
+      "sameOrder": 760,
+      "fewerResults": 172,
+      "moreResults": 0,
+      "emptyAfterNonemptyBaseline": 171,
+      "changedSetWithUnsplitNormalizedQuery": 172,
+      "changedSetExamples": [
+        {
+          "foodIds": [
+            "tomato",
+            "bokchoy"
+          ],
+          "baselineQuery": "番茄 小青菜",
+          "query": "番茄小青菜",
+          "normalizedQuery": "番茄小小青菜",
+          "splitParts": [
+            "番茄小小青菜"
+          ],
+          "baselineResults": 4,
+          "results": 0,
+          "missingIds": [
+            "tomato-greens-noodles",
+            "open-tomato-shrimp-buckwheat-noodles",
+            "open-tomato-egg-braised-pancake",
+            "open-dough-drop-soup"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-greens-noodles",
+              "name": "番茄青菜汤面",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-shrimp-buckwheat-noodles",
+              "name": "番茄虾仁荞麦面",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-egg-braised-pancake",
+              "name": "番茄鸡蛋烩饼",
+              "score": 34
+            },
+            {
+              "id": "open-dough-drop-soup",
+              "name": "疙瘩汤",
+              "score": 20
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "shiitake"
+          ],
+          "baselineQuery": "番茄 鲜香菇",
+          "query": "番茄鲜香菇",
+          "normalizedQuery": "番茄鲜鲜香菇",
+          "splitParts": [
+            "番茄鲜鲜香菇"
+          ],
+          "baselineResults": 1,
+          "results": 0,
+          "missingIds": [
+            "htc-1157639fe340e"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "htc-1157639fe340e",
+              "name": "荔枝肉",
+              "score": 20
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "ground-pork"
+          ],
+          "baselineQuery": "番茄 猪肉末",
+          "query": "番茄猪肉末",
+          "normalizedQuery": "番茄猪瘦猪肉末",
+          "splitParts": [
+            "番茄猪瘦猪肉末"
+          ],
+          "baselineResults": 3,
+          "results": 0,
+          "missingIds": [
+            "tomato-pork-noodles",
+            "open-home-style-soup-rice",
+            "gov-hakka-25"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-pork-noodles",
+              "name": "番茄肉末面",
+              "score": 34
+            },
+            {
+              "id": "open-home-style-soup-rice",
+              "name": "家常汤饭",
+              "score": 20
+            },
+            {
+              "id": "gov-hakka-25",
+              "name": "梅干菜通心哈斯面包",
+              "score": 20
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "fish"
+          ],
+          "baselineQuery": "番茄 去刺鱼片",
+          "query": "番茄去刺鱼片",
+          "normalizedQuery": "番茄去刺去刺鱼片",
+          "splitParts": [
+            "番茄去刺去刺鱼片"
+          ],
+          "baselineResults": 1,
+          "results": 0,
+          "missingIds": [
+            "tomato-fish-soup"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-fish-soup",
+              "name": "番茄鱼片汤",
+              "score": 34
+            }
+          ],
+          "topFive": []
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "cooked-rice"
+          ],
+          "baselineQuery": "番茄 熟米饭",
+          "query": "番茄熟米饭",
+          "normalizedQuery": "番茄熟熟米饭",
+          "splitParts": [
+            "番茄熟熟米饭"
+          ],
+          "baselineResults": 1,
+          "results": 0,
+          "missingIds": [
+            "tomato-simmered-rice"
+          ],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "tomato-simmered-rice",
+              "name": "番茄烩饭",
+              "score": 34
+            }
+          ],
+          "topFive": []
+        }
+      ],
+      "changedOrderOnlyExamples": [
+        {
+          "foodIds": [
+            "tomato",
+            "cucumber"
+          ],
+          "baselineQuery": "番茄 黄瓜",
+          "query": "番茄黄瓜",
+          "normalizedQuery": "番茄黄瓜",
+          "splitParts": [
+            "番茄",
+            "黄瓜"
+          ],
+          "baselineResults": 8,
+          "results": 8,
+          "missingIds": [],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "enwiki-18234",
+              "name": "番茄、黄瓜和甜椒沙拉",
+              "score": 48
+            },
+            {
+              "id": "enwiki-199080",
+              "name": "黄瓜番茄沙拉",
+              "score": 48
+            },
+            {
+              "id": "open-chickpea-tomato-salad",
+              "name": "鹰嘴豆番茄沙拉",
+              "score": 34
+            },
+            {
+              "id": "wiki-33381",
+              "name": "冷中华",
+              "score": 20
+            },
+            {
+              "id": "open-fruit-veg-salad",
+              "name": "蔬果沙拉",
+              "score": 20
+            }
+          ],
+          "topFive": [
+            {
+              "id": "enwiki-18234",
+              "name": "番茄、黄瓜和甜椒沙拉",
+              "score": 24
+            },
+            {
+              "id": "enwiki-199080",
+              "name": "黄瓜番茄沙拉",
+              "score": 24
+            },
+            {
+              "id": "wiki-33381",
+              "name": "冷中华",
+              "score": 10
+            },
+            {
+              "id": "open-fruit-veg-salad",
+              "name": "蔬果沙拉",
+              "score": 10
+            },
+            {
+              "id": "open-chicken-veggie-wrap",
+              "name": "蔬菜鸡肉卷",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "potato"
+          ],
+          "baselineQuery": "番茄 土豆",
+          "query": "番茄土豆",
+          "normalizedQuery": "番茄土豆",
+          "splitParts": [
+            "番茄",
+            "土豆"
+          ],
+          "baselineResults": 13,
+          "results": 13,
+          "missingIds": [],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "htc-90f04c224709a",
+              "name": "西红柿土豆炖牛肉",
+              "score": 48
+            },
+            {
+              "id": "htc-02e515d6befb2",
+              "name": "印度土豆花菜",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-braised-beef",
+              "name": "番茄炖牛肉",
+              "score": 34
+            },
+            {
+              "id": "htc-1bda94c2a4792",
+              "name": "利提巧卡",
+              "score": 20
+            },
+            {
+              "id": "htc-0ed628aba05a3",
+              "name": "肉蟹煲",
+              "score": 20
+            }
+          ],
+          "topFive": [
+            {
+              "id": "htc-90f04c224709a",
+              "name": "西红柿土豆炖牛肉",
+              "score": 104
+            },
+            {
+              "id": "htc-1bda94c2a4792",
+              "name": "利提巧卡",
+              "score": 10
+            },
+            {
+              "id": "htc-0ed628aba05a3",
+              "name": "肉蟹煲",
+              "score": 10
+            },
+            {
+              "id": "htc-419a5e174596d",
+              "name": "罗宋汤",
+              "score": 10
+            },
+            {
+              "id": "htc-02e515d6befb2",
+              "name": "印度土豆花菜",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "foodIds": [
+            "tomato",
+            "carrot"
+          ],
+          "baselineQuery": "番茄 胡萝卜",
+          "query": "番茄胡萝卜",
+          "normalizedQuery": "番茄胡萝卜",
+          "splitParts": [
+            "番茄",
+            "胡萝卜"
+          ],
+          "baselineResults": 8,
+          "results": 8,
+          "missingIds": [],
+          "extraIds": [],
+          "baselineTopFive": [
+            {
+              "id": "htc-e708c271324aa",
+              "name": "番茄红酱",
+              "score": 34
+            },
+            {
+              "id": "open-tomato-vegetable-soup",
+              "name": "番茄蔬菜汤",
+              "score": 34
+            },
+            {
+              "id": "htc-419a5e174596d",
+              "name": "罗宋汤",
+              "score": 20
+            },
+            {
+              "id": "htc-5097e0e1af4e2",
+              "name": "家常日本豆腐",
+              "score": 20
+            },
+            {
+              "id": "wiki-11067",
+              "name": "茄汁义大利面",
+              "score": 20
+            }
+          ],
+          "topFive": [
+            {
+              "id": "htc-419a5e174596d",
+              "name": "罗宋汤",
+              "score": 10
+            },
+            {
+              "id": "htc-5097e0e1af4e2",
+              "name": "家常日本豆腐",
+              "score": 10
+            },
+            {
+              "id": "htc-e708c271324aa",
+              "name": "番茄红酱",
+              "score": 10
+            },
+            {
+              "id": "wiki-11067",
+              "name": "茄汁义大利面",
+              "score": 10
+            },
+            {
+              "id": "open-tomato-vegetable-soup",
+              "name": "番茄蔬菜汤",
+              "score": 10
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "normalization": {
+    "namesChecked": 47,
+    "changedFirstPass": 10,
+    "nonIdempotent": 10,
+    "rows": [
+      {
+        "id": "tomato",
+        "name": "番茄",
+        "once": "番茄",
+        "twice": "番茄",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "cucumber",
+        "name": "黄瓜",
+        "once": "黄瓜",
+        "twice": "黄瓜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "potato",
+        "name": "土豆",
+        "once": "土豆",
+        "twice": "土豆",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "carrot",
+        "name": "胡萝卜",
+        "once": "胡萝卜",
+        "twice": "胡萝卜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "scallion",
+        "name": "葱",
+        "once": "葱",
+        "twice": "葱",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "garlic",
+        "name": "蒜",
+        "once": "蒜",
+        "twice": "蒜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "ginger",
+        "name": "姜",
+        "once": "姜",
+        "twice": "姜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "onion",
+        "name": "洋葱",
+        "once": "洋葱",
+        "twice": "洋葱",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "cabbage",
+        "name": "包菜",
+        "once": "包菜",
+        "twice": "包菜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "napa",
+        "name": "大白菜",
+        "once": "大大白菜",
+        "twice": "大大大白菜",
+        "changedFirstPass": true,
+        "idempotent": false
+      },
+      {
+        "id": "bokchoy",
+        "name": "小青菜",
+        "once": "小小青菜",
+        "twice": "小小小青菜",
+        "changedFirstPass": true,
+        "idempotent": false
+      },
+      {
+        "id": "spinach",
+        "name": "菠菜",
+        "once": "菠菜",
+        "twice": "菠菜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "chives",
+        "name": "韭菜",
+        "once": "韭菜",
+        "twice": "韭菜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "broccoli",
+        "name": "西兰花",
+        "once": "西兰花",
+        "twice": "西兰花",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "cauliflower",
+        "name": "花菜",
+        "once": "花菜",
+        "twice": "花菜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "eggplant",
+        "name": "茄子",
+        "once": "茄子",
+        "twice": "茄子",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "shiitake",
+        "name": "鲜香菇",
+        "once": "鲜鲜香菇",
+        "twice": "鲜鲜鲜香菇",
+        "changedFirstPass": true,
+        "idempotent": false
+      },
+      {
+        "id": "enoki",
+        "name": "金针菇",
+        "once": "金针菇",
+        "twice": "金针菇",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "sprouts",
+        "name": "绿豆芽",
+        "once": "绿绿豆芽",
+        "twice": "绿绿绿豆芽",
+        "changedFirstPass": true,
+        "idempotent": false
+      },
+      {
+        "id": "lotus",
+        "name": "藕",
+        "once": "藕",
+        "twice": "藕",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "pepper",
+        "name": "青椒",
+        "once": "青椒",
+        "twice": "青椒",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "celery",
+        "name": "芹菜",
+        "once": "芹菜",
+        "twice": "芹菜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "corn",
+        "name": "玉米粒",
+        "once": "玉米粒粒",
+        "twice": "玉米粒粒粒",
+        "changedFirstPass": true,
+        "idempotent": false
+      },
+      {
+        "id": "wintermelon",
+        "name": "冬瓜",
+        "once": "冬瓜",
+        "twice": "冬瓜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "pumpkin",
+        "name": "南瓜",
+        "once": "南瓜",
+        "twice": "南瓜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "sweetpotato",
+        "name": "红薯",
+        "once": "红薯",
+        "twice": "红薯",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "lettuce",
+        "name": "生菜",
+        "once": "生菜",
+        "twice": "生菜",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "zucchini",
+        "name": "西葫芦",
+        "once": "西葫芦",
+        "twice": "西葫芦",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "yam",
+        "name": "山药",
+        "once": "山药",
+        "twice": "山药",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "egg",
+        "name": "鸡蛋",
+        "once": "鸡蛋",
+        "twice": "鸡蛋",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "firm-tofu",
+        "name": "北豆腐",
+        "once": "北豆腐",
+        "twice": "北豆腐",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "soft-tofu",
+        "name": "嫩豆腐",
+        "once": "嫩豆腐",
+        "twice": "嫩豆腐",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "tofu-skin",
+        "name": "豆腐皮",
+        "once": "豆腐皮",
+        "twice": "豆腐皮",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "pork",
+        "name": "猪瘦肉",
+        "once": "猪瘦肉",
+        "twice": "猪瘦肉",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "ground-pork",
+        "name": "猪肉末",
+        "once": "猪瘦猪肉末",
+        "twice": "猪瘦猪瘦猪肉末",
+        "changedFirstPass": true,
+        "idempotent": false
+      },
+      {
+        "id": "chicken",
+        "name": "鸡胸肉",
+        "once": "鸡胸肉",
+        "twice": "鸡胸肉",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "beef",
+        "name": "牛肉",
+        "once": "牛肉",
+        "twice": "牛肉",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "shrimp",
+        "name": "虾仁",
+        "once": "虾仁",
+        "twice": "虾仁",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "fish",
+        "name": "去刺鱼片",
+        "once": "去刺去刺鱼片",
+        "twice": "去刺去刺去刺鱼片",
+        "changedFirstPass": true,
+        "idempotent": false
+      },
+      {
+        "id": "dried-shrimp",
+        "name": "虾皮",
+        "once": "虾皮",
+        "twice": "虾皮",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "cooked-rice",
+        "name": "熟米饭",
+        "once": "熟熟米饭",
+        "twice": "熟熟熟米饭",
+        "changedFirstPass": true,
+        "idempotent": false
+      },
+      {
+        "id": "rice",
+        "name": "大米",
+        "once": "大米",
+        "twice": "大米",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "millet",
+        "name": "小米",
+        "once": "小米",
+        "twice": "小米",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "noodles",
+        "name": "挂面",
+        "once": "挂面",
+        "twice": "挂面",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "flour",
+        "name": "面粉",
+        "once": "面粉",
+        "twice": "面粉",
+        "changedFirstPass": false,
+        "idempotent": true
+      },
+      {
+        "id": "vermicelli",
+        "name": "干粉丝",
+        "once": "干干粉丝",
+        "twice": "干干干粉丝",
+        "changedFirstPass": true,
+        "idempotent": false
+      },
+      {
+        "id": "seaweed",
+        "name": "干紫菜",
+        "once": "干干紫菜",
+        "twice": "干干干紫菜",
+        "changedFirstPass": true,
+        "idempotent": false
+      }
+    ]
+  },
+  "completeOrderedResultDigestSha256": "659e576b67b2588c195b219cabd4a50266a6da42921c327ca73f67cf71a70b0c",
+  "digestFormat": "For each pair in catalog order, hash UTF-8 JSON.stringify({foods:[id1,id2],baseline:[recipe IDs],variants:{separator name:[recipe IDs]}}) followed by LF. The variant property order is the order in the source script.",
+  "limitation": "Baseline equivalence and result ordering are measured separately. Synthetic syntax comparisons supply no human relevance judgments, ingredient ontology validation or user-level accuracy estimate."
+}

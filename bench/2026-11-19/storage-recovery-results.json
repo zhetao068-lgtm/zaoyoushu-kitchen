@@ -1,0 +1,722 @@
+{
+  "artifact": {
+    "bytes": 2263560,
+    "sha256": "f428a0c2d2f8de7af2f3ac7435635af5c054d77110c5c6dd49300cdc1b2839d4"
+  },
+  "environment": {
+    "node": "v24.22.3",
+    "platform": "win32",
+    "architecture": "x64",
+    "unicode": "17.0",
+    "icu": "78.3"
+  },
+  "method": "Released MealModel with synthetic saved JSON and a deterministic in-memory Storage double. Web Locks absent. Each cold-load case uses a fresh model realm.",
+  "fixture": {
+    "servings": 2,
+    "plan": [
+      "tomato-eggs"
+    ],
+    "stockGrams": {
+      "tomato": 300
+    },
+    "stockPieces": {
+      "egg": 4
+    },
+    "notes": 1
+  },
+  "coldLoadCases": 50,
+  "groups": {
+    "control": {
+      "cases": 1,
+      "accepted": 1,
+      "fallback": 0
+    },
+    "servings": {
+      "cases": 6,
+      "accepted": 2,
+      "fallback": 4
+    },
+    "plan": {
+      "cases": 6,
+      "accepted": 2,
+      "fallback": 4
+    },
+    "quantity": {
+      "cases": 8,
+      "accepted": 2,
+      "fallback": 6
+    },
+    "stock-shape": {
+      "cases": 3,
+      "accepted": 1,
+      "fallback": 2
+    },
+    "unchecked-fields": {
+      "cases": 6,
+      "accepted": 6,
+      "fallback": 0
+    },
+    "book-coupling": {
+      "cases": 2,
+      "accepted": 0,
+      "fallback": 2
+    },
+    "mode": {
+      "cases": 2,
+      "accepted": 1,
+      "fallback": 1
+    },
+    "notes-shape": {
+      "cases": 9,
+      "accepted": 1,
+      "fallback": 8
+    },
+    "notes-limit": {
+      "cases": 2,
+      "accepted": 1,
+      "fallback": 1
+    },
+    "raw-input": {
+      "cases": 5,
+      "accepted": 0,
+      "fallback": 5
+    }
+  },
+  "checks": [
+    {
+      "name": "valid-baseline",
+      "group": "control",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "58a145239a03d3d23eca9976674bb00ab9e558d98c1253625ae1aa21a7994a78"
+    },
+    {
+      "name": "servings-0",
+      "group": "servings",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "d6ee29ec4bd600c12bd3dc29e2da4e65416cceb694385aec8733924f82e30f40"
+    },
+    {
+      "name": "servings-1",
+      "group": "servings",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "7f5a6d78d8b4b6d4e79d0aa681e42c0ac247a8172efe4437b6fda44529fab964"
+    },
+    {
+      "name": "servings-8",
+      "group": "servings",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "94768ed6ce29b44e0ce8221b5dd8e03c00912adf5656e4f6a97655f649c2aedd"
+    },
+    {
+      "name": "servings-9",
+      "group": "servings",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "a70e9d3da892d1afc082ebcaac5c8175816005fea7a01c7acf72c2b349aea244"
+    },
+    {
+      "name": "servings-2.5",
+      "group": "servings",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "030f45942eccff7ee2613c956459a993d9f2572aa4fcf2faf363e1bab28567ef"
+    },
+    {
+      "name": "servings-\"2\"",
+      "group": "servings",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "3373bfdf4cd32f0f301d250c77af233ad5c7032ee707480889d27de9ce2630e8"
+    },
+    {
+      "name": "plan-empty",
+      "group": "plan",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "01f431f6f6e3dd900640e0fced0bccc928bf6e3ce3b3b34fb0e7f86d89e1e760"
+    },
+    {
+      "name": "plan-two-known",
+      "group": "plan",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "427c82ead7e8635eed39552654a8bdd94a7edf71579779b72d157cab09a8c1fc"
+    },
+    {
+      "name": "plan-duplicate",
+      "group": "plan",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "7e4dd7835895b9785ff7a62c2fbe728218aaf215d3229b6727ae2bbff5934962"
+    },
+    {
+      "name": "plan-unknown",
+      "group": "plan",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "9c160b1dffb02d59ab43fabb4c46355761703ae65e2f6fae61fc502b88ea0393"
+    },
+    {
+      "name": "plan-string",
+      "group": "plan",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "070ca267174f313879b847b0c69ba679afd2a8dec4eb71a24a64c2db5b13b39b"
+    },
+    {
+      "name": "plan-null",
+      "group": "plan",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "d6169d8f3129a2c7da21f88737be405ca4865c56c1c610b2310fc33137d13ce2"
+    },
+    {
+      "name": "quantity-zero",
+      "group": "quantity",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "20776dca2f2229be4a26bf14f1f8e75eebf901e5f43130011b41b5bc09349303"
+    },
+    {
+      "name": "quantity-maximum",
+      "group": "quantity",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "4477f3570db2043a15b8f7ef5c9d21d798d4df2a4ea6c637d075b2197d0b10aa"
+    },
+    {
+      "name": "quantity-negative",
+      "group": "quantity",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "22b2f016a16fdce06144115896bdd7daebd0a4a5579c4cfcd849b9b59aaa6870"
+    },
+    {
+      "name": "quantity-above-maximum",
+      "group": "quantity",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "0c8cc5ea9a679a0799608d4c6750d0161de0b7edf6a475e65d2cef5e5c73ab09"
+    },
+    {
+      "name": "quantity-fraction",
+      "group": "quantity",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "22a87d2dfb960f0404d861cc861dcc4e3638faed586426442428351caa5ad665"
+    },
+    {
+      "name": "quantity-string",
+      "group": "quantity",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "c5fe0d8dccb938c120fcd517913d3bfe705a905122d608989d297fb50afd72c2"
+    },
+    {
+      "name": "quantity-null",
+      "group": "quantity",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "6e2cbc1686c9883748c6bdb2c15dc159b5fc5c5398105b5990e5ed784ffc46c7"
+    },
+    {
+      "name": "quantity-missing",
+      "group": "quantity",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "06f1e4f0323177a075cad1938fcae40c7e58e346a6d3dadaf7b5407f207300ed"
+    },
+    {
+      "name": "stock-null",
+      "group": "stock-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "7f771b88fc0ebddbea291b9e8398e098e6d86480191065bfd19789d670f18bf9"
+    },
+    {
+      "name": "stock-unknown-food",
+      "group": "stock-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "23b9d4229ea29f76faf6cf8fa43d7f8344f64684b96fc82d257560fe79e65e09"
+    },
+    {
+      "name": "stock-empty-array",
+      "group": "stock-shape",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 1,
+      "sourceSha256": "3e58de7737b95b567c49bea9e5c1a473e769b15a01230b4cde3fbc343c4c579e"
+    },
+    {
+      "name": "estimated-and-priority-strings",
+      "group": "unchecked-fields",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "0aa83065a0a1e76baa33cd282e315e53d175b8ec9d1af95f1bdb27f9036f52a3"
+    },
+    {
+      "name": "adjustments-string",
+      "group": "unchecked-fields",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "9c907e384b00bef34d5dbdbc212d66f0e81f2147ada104d181a9eb6dee79c900"
+    },
+    {
+      "name": "unknown-top-level-field",
+      "group": "unchecked-fields",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "f7be93f49d4063d80ee4475faa8fc8b26255238345fe4710b54b09aecbf6cbc8"
+    },
+    {
+      "name": "demo-corrupt-home-valid",
+      "group": "book-coupling",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "83b258c3d48f3796aa51c6685580eb85ed9214ce753c388aa0fc88f9bd905c13"
+    },
+    {
+      "name": "demo-missing-home-valid",
+      "group": "book-coupling",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "1c90453ca7ef98441a78918d63b210643098aae11a516f8491f476b8f884770b"
+    },
+    {
+      "name": "mode-unknown",
+      "group": "mode",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "60a7663bb085ac0aa63d0512cde07e2b4db8cebc54b06973f97c745d3aeadd5a"
+    },
+    {
+      "name": "mode-demo",
+      "group": "mode",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "50d667c9fffbfef351bd4522193fe9d6cb26223b0a9782be7c152ba68fdbef6c"
+    },
+    {
+      "name": "notes-missing",
+      "group": "notes-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "3886dd4ae7c31144229171a187b128d140f131615e5ce20f40a5ea37ca630223"
+    },
+    {
+      "name": "notes-null",
+      "group": "notes-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "9d9fa20dffbc34ef0cbfe46bfd90094023aa8212fa493fa542a8ccf50723c338"
+    },
+    {
+      "name": "notes-empty",
+      "group": "notes-shape",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 0,
+      "sourceSha256": "5b49a90ffe0e3d4973f5199071721a4925bcda48ebf744e966950ecb63087f57"
+    },
+    {
+      "name": "notes-100",
+      "group": "notes-limit",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 100,
+      "sourceSha256": "7efec64100ae8f1a81351d11739f8ca7785274d506428a74700c484da9f20166"
+    },
+    {
+      "name": "notes-101",
+      "group": "notes-limit",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "1214d21356aeaf7c3ab78d754f9810eb3935b0a2de910bd0b170b611327a4219"
+    },
+    {
+      "name": "note-null",
+      "group": "notes-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "76883467d0b30e5eaf5304c9a779daeffbfde50f107bc806e7e00071ecfb9e56"
+    },
+    {
+      "name": "note-numeric-id",
+      "group": "notes-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "d9d25556bd542b92fb3c8b96dc33b77e221502ec49331b0cf0b7a998bd9076e1"
+    },
+    {
+      "name": "note-numeric-name",
+      "group": "notes-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "26de10dde01b926e6b5244f1a17b281051c9eb035addc49c6383af8d919242cb"
+    },
+    {
+      "name": "note-ingredients-string",
+      "group": "notes-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "f71385dc35e8ca56f55ddef14919beaedfd6711b5a144094f44638500d8b4113"
+    },
+    {
+      "name": "note-steps-numeric-entry",
+      "group": "notes-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "2f9a35dad04f54077308c06e057c91b07274b29df76ff6a29fa176b9a996474d"
+    },
+    {
+      "name": "note-safety-missing",
+      "group": "notes-shape",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "835fcf36876223329c45cf840a446cbf8f07d9df94f9424c0b03f54ccc370e44"
+    },
+    {
+      "name": "note-empty-strings",
+      "group": "unchecked-fields",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "34c57034a028a958ecedb72d666f1a3d29fb6def1e415ce62f919e64da993dfc"
+    },
+    {
+      "name": "note-duplicate-ids",
+      "group": "unchecked-fields",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 2,
+      "sourceSha256": "6ce1a0a347a443bad5260ec7cb626e0fe09de45e5a0a7bc16ecf56eebfbc9f09"
+    },
+    {
+      "name": "note-long-name",
+      "group": "unchecked-fields",
+      "accepted": true,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [
+        "tomato",
+        "egg"
+      ],
+      "loadedNotes": 1,
+      "sourceSha256": "4cbd12a3d1751314b5bab11b0ad1503238a37d03b74db6bdda7c618499ca349f"
+    },
+    {
+      "name": "absent",
+      "group": "raw-input",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "empty-string",
+      "group": "raw-input",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "malformed-json",
+      "group": "raw-input",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "021fb596db81e6d02bf3d2586ee3981fe519f275c0ac9ca76bbcf2ebb4097d96"
+    },
+    {
+      "name": "json-null",
+      "group": "raw-input",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "json-array",
+      "group": "raw-input",
+      "accepted": false,
+      "sourceRecordUnchanged": true,
+      "writes": 0,
+      "loadedHomeStockKeys": [],
+      "loadedNotes": 0,
+      "sourceSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "updateScenarios": [
+    {
+      "name": "normal-write",
+      "first": {
+        "saved": true
+      },
+      "second": {
+        "saved": true
+      },
+      "memoryQuantityGrams": 320,
+      "storedQuantityGrams": 320,
+      "writesBeforeReload": 2,
+      "restoredQuantityGrams": 320,
+      "savedAfterFreshInstance": true
+    },
+    {
+      "name": "QuotaExceededError",
+      "first": {
+        "saved": false
+      },
+      "second": {
+        "saved": false
+      },
+      "memoryQuantityGrams": 320,
+      "storedQuantityGrams": 300,
+      "writesBeforeReload": 1,
+      "restoredQuantityGrams": 300,
+      "savedAfterFreshInstance": true
+    },
+    {
+      "name": "SecurityError",
+      "first": {
+        "saved": false
+      },
+      "second": {
+        "saved": false
+      },
+      "memoryQuantityGrams": 320,
+      "storedQuantityGrams": 300,
+      "writesBeforeReload": 1,
+      "restoredQuantityGrams": 300,
+      "savedAfterFreshInstance": true
+    },
+    {
+      "name": "validation-error",
+      "outcome": {
+        "error": "Synthetic validation error"
+      },
+      "memoryUnchanged": true,
+      "sourceUnchanged": true,
+      "writes": 0
+    },
+    {
+      "name": "callback-throws",
+      "outcome": {
+        "thrown": "Synthetic callback failure"
+      },
+      "memoryUnchanged": true,
+      "sourceUnchanged": true,
+      "writes": 0
+    },
+    {
+      "name": "startup-read-denied-then-allowed",
+      "outcome": {
+        "saved": false
+      },
+      "writes": 0,
+      "memoryQuantityGrams": 10,
+      "restoredQuantityGrams": 300,
+      "sourceUnchanged": true
+    },
+    {
+      "name": "invalid-demo-then-home-update",
+      "outcome": {
+        "saved": true
+      },
+      "sourcePreservedUntilUpdate": true,
+      "sourceReplacedAfterUpdate": true,
+      "writes": 1,
+      "restoredHomeStockKeys": [
+        "tomato"
+      ],
+      "restoredQuantityGrams": 10,
+      "restoredNotes": 0
+    }
+  ],
+  "limitation": "Faults are injected into the Storage interface. These runs measure model behavior, not actual browser quota, disk durability, UI warnings, cross-tab races or schema migration success on private records."
+}
