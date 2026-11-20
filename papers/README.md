@@ -2,6 +2,8 @@
 
 | 日期 | 论文 | 可复现材料 |
 | --- | --- | --- |
+| 2026-11-20 | [结构化字段如何限制菜谱筛选覆盖范围](2026-11-20/filter-coverage.md)<br>How structured fields limit recipe-filter coverage | [筛选审计 / Filter audit](../bench/2026-11-20/filter-coverage.mjs) · [结果 / Results](../bench/2026-11-20/filter-coverage-results.json) |
+| 2026-11-20 | [逐步做菜在关闭与刷新后的进度恢复](2026-11-20/step-recovery.md)<br>Cooking-step recovery after closing and reloading the recipe dialog | [进度实验 / Progress study](../bench/2026-11-20/step-recovery.py) · [结果 / Results](../bench/2026-11-20/step-recovery-results.json) |
 | 2026-11-19 | [中文组合检索的分隔符与别名替换边界](2026-11-19/query-separators.md)<br>Separator equivalence and alias-replacement boundaries in Chinese recipe search | [检索实验 / Search study](../bench/2026-11-19/query-separators.mjs) · [结果 / Results](../bench/2026-11-19/query-separators-results.json) |
 | 2026-11-19 | [离线库存恢复的校验边界与写入失败行为](2026-11-19/storage-recovery.md)<br>Validation boundaries and write-failure behavior in offline pantry recovery | [恢复实验 / Recovery study](../bench/2026-11-19/storage-recovery.mjs) · [结果 / Results](../bench/2026-11-19/storage-recovery-results.json) |
 | 2026-11-18 | [一句话入库的食材别名与单位边界](2026-11-18/pantry-input.md)<br>Ingredient aliases and unit boundaries in one-line pantry entry | [解析实验 / Parser study](../bench/2026-11-18/pantry-input.mjs) · [结果 / Results](../bench/2026-11-18/pantry-input-results.json) |

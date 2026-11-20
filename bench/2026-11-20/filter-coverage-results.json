@@ -1,0 +1,2111 @@
+{
+  "artifact": {
+    "bytes": 2263560,
+    "sha256": "f428a0c2d2f8de7af2f3ac7435635af5c054d77110c5c6dd49300cdc1b2839d4"
+  },
+  "environment": {
+    "node": "v24.22.3",
+    "platform": "win32",
+    "architecture": "x64",
+    "unicode": "17.0",
+    "icu": "78.3"
+  },
+  "method": "Read field availability from the complete public search index, then use the page's ready-set construction and Cookbook.search with an empty query over all fixture combinations.",
+  "indexedRecipes": 1349,
+  "ingredientIds": 47,
+  "metadata": [
+    {
+      "type": "exact",
+      "recipes": 187,
+      "positiveNumericMinutes": 187,
+      "noMinutesField": 0,
+      "structuredNeeds": 187,
+      "minutesAtMost20": 102,
+      "examplesWithoutMinutes": []
+    },
+    {
+      "type": "reference",
+      "recipes": 285,
+      "positiveNumericMinutes": 0,
+      "noMinutesField": 285,
+      "structuredNeeds": 0,
+      "minutesAtMost20": 0,
+      "examplesWithoutMinutes": [
+        {
+          "id": "htc-ceb4b4a04f909",
+          "name": "中式馅饼"
+        },
+        {
+          "id": "htc-83c2759e7cb25",
+          "name": "凉粉"
+        },
+        {
+          "id": "htc-1bda94c2a4792",
+          "name": "利提巧卡"
+        }
+      ]
+    },
+    {
+      "type": "online",
+      "recipes": 877,
+      "positiveNumericMinutes": 0,
+      "noMinutesField": 877,
+      "structuredNeeds": 0,
+      "minutesAtMost20": 0,
+      "examplesWithoutMinutes": [
+        {
+          "id": "wiki-24476",
+          "name": "三杯杏鲍菇"
+        },
+        {
+          "id": "wiki-8807",
+          "name": "三杯鸡"
+        },
+        {
+          "id": "wiki-33134",
+          "name": "东北大拉皮"
+        }
+      ]
+    }
+  ],
+  "fixture": {
+    "servings": "integers 1 through 8",
+    "inventories": {
+      "empty": "no ingredient records",
+      "zero": "all known ingredients at zero",
+      "full": "all known ingredients at maximum quantity"
+    },
+    "fullQuantity": 100000,
+    "units": "Each ingredient uses its catalog base unit: grams or pieces.",
+    "plannedRecipes": 0,
+    "categories": [
+      "all",
+      "meatless"
+    ],
+    "scopes": [
+      "all",
+      "quick",
+      "ready"
+    ]
+  },
+  "observations": 144,
+  "rows": [
+    {
+      "servings": 1,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 1,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 1,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 1,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 1,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 1,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 1,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 1,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 1,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 1,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 1,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 1,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 1,
+      "inventory": "full",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "6445c1453078ed4887c8ab972d917b5c115069a60cdc0d8987f0125db640d8dd"
+    },
+    {
+      "servings": 1,
+      "inventory": "full",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 1,
+      "inventory": "full",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 187,
+      "types": {
+        "exact": 187,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "3554843e033ea18310199fd53b407c47d288c7f1f7e3c58dd4efcc7a9d8a68a4"
+    },
+    {
+      "servings": 1,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 1,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 1,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 2,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 2,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 2,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 2,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 2,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 2,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 2,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 2,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 2,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 2,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 2,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 2,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 2,
+      "inventory": "full",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "6445c1453078ed4887c8ab972d917b5c115069a60cdc0d8987f0125db640d8dd"
+    },
+    {
+      "servings": 2,
+      "inventory": "full",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 2,
+      "inventory": "full",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 187,
+      "types": {
+        "exact": 187,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "3554843e033ea18310199fd53b407c47d288c7f1f7e3c58dd4efcc7a9d8a68a4"
+    },
+    {
+      "servings": 2,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 2,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 2,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 3,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 3,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 3,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 3,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 3,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 3,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 3,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 3,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 3,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 3,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 3,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 3,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 3,
+      "inventory": "full",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "6445c1453078ed4887c8ab972d917b5c115069a60cdc0d8987f0125db640d8dd"
+    },
+    {
+      "servings": 3,
+      "inventory": "full",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 3,
+      "inventory": "full",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 187,
+      "types": {
+        "exact": 187,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "3554843e033ea18310199fd53b407c47d288c7f1f7e3c58dd4efcc7a9d8a68a4"
+    },
+    {
+      "servings": 3,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 3,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 3,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 4,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 4,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 4,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 4,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 4,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 4,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 4,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 4,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 4,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 4,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 4,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 4,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 4,
+      "inventory": "full",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "6445c1453078ed4887c8ab972d917b5c115069a60cdc0d8987f0125db640d8dd"
+    },
+    {
+      "servings": 4,
+      "inventory": "full",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 4,
+      "inventory": "full",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 187,
+      "types": {
+        "exact": 187,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "3554843e033ea18310199fd53b407c47d288c7f1f7e3c58dd4efcc7a9d8a68a4"
+    },
+    {
+      "servings": 4,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 4,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 4,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 5,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 5,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 5,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 5,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 5,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 5,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 5,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 5,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 5,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 5,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 5,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 5,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 5,
+      "inventory": "full",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "6445c1453078ed4887c8ab972d917b5c115069a60cdc0d8987f0125db640d8dd"
+    },
+    {
+      "servings": 5,
+      "inventory": "full",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 5,
+      "inventory": "full",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 187,
+      "types": {
+        "exact": 187,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "3554843e033ea18310199fd53b407c47d288c7f1f7e3c58dd4efcc7a9d8a68a4"
+    },
+    {
+      "servings": 5,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 5,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 5,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 6,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 6,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 6,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 6,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 6,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 6,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 6,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 6,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 6,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 6,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 6,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 6,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 6,
+      "inventory": "full",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "6445c1453078ed4887c8ab972d917b5c115069a60cdc0d8987f0125db640d8dd"
+    },
+    {
+      "servings": 6,
+      "inventory": "full",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 6,
+      "inventory": "full",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 187,
+      "types": {
+        "exact": 187,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "3554843e033ea18310199fd53b407c47d288c7f1f7e3c58dd4efcc7a9d8a68a4"
+    },
+    {
+      "servings": 6,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 6,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 6,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 7,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 7,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 7,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 7,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 7,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 7,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 7,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 7,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 7,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 7,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 7,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 7,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 7,
+      "inventory": "full",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "6445c1453078ed4887c8ab972d917b5c115069a60cdc0d8987f0125db640d8dd"
+    },
+    {
+      "servings": 7,
+      "inventory": "full",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 7,
+      "inventory": "full",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 187,
+      "types": {
+        "exact": 187,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "3554843e033ea18310199fd53b407c47d288c7f1f7e3c58dd4efcc7a9d8a68a4"
+    },
+    {
+      "servings": 7,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 7,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 7,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 8,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 8,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 8,
+      "inventory": "empty",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 8,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 8,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 8,
+      "inventory": "empty",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 8,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "acfa8fd03e04f8f85227356df178899d36f2f80caedf50cacd2fabb4ea3f228b"
+    },
+    {
+      "servings": 8,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 8,
+      "inventory": "zero",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 8,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 0,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 8,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 0,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 8,
+      "inventory": "zero",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 0,
+      "results": 0,
+      "types": {
+        "exact": 0,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "servings": 8,
+      "inventory": "full",
+      "category": "all",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 1349,
+      "types": {
+        "exact": 187,
+        "reference": 285,
+        "online": 877
+      },
+      "orderedIdsSha256": "6445c1453078ed4887c8ab972d917b5c115069a60cdc0d8987f0125db640d8dd"
+    },
+    {
+      "servings": 8,
+      "inventory": "full",
+      "category": "all",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 102,
+      "types": {
+        "exact": 102,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "53e58536b4a1cca643d51b02b512750cd553cb86ddcc419c767a6a4a58982b7e"
+    },
+    {
+      "servings": 8,
+      "inventory": "full",
+      "category": "all",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 187,
+      "types": {
+        "exact": 187,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "3554843e033ea18310199fd53b407c47d288c7f1f7e3c58dd4efcc7a9d8a68a4"
+    },
+    {
+      "servings": 8,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "all",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    },
+    {
+      "servings": 8,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "quick",
+      "readyMeasuredRecipes": 187,
+      "results": 75,
+      "types": {
+        "exact": 75,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "2e496b43ef2567c005ed31e81504f959f582b7503d7834dd927547a6946e13e8"
+    },
+    {
+      "servings": 8,
+      "inventory": "full",
+      "category": "meatless",
+      "scope": "ready",
+      "readyMeasuredRecipes": 187,
+      "results": 103,
+      "types": {
+        "exact": 103,
+        "reference": 0,
+        "online": 0
+      },
+      "orderedIdsSha256": "a766fce4b834c47d82ba274dbe2fb69da1c671306060e06b76e452c19b853427"
+    }
+  ],
+  "limitation": "The minute field is an editorial estimate. This study measures data fields and software filters, without cooking trials, inferred preparation times, nutritional or dietary guarantees, or search relevance labels."
+}
