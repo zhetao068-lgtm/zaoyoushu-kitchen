@@ -1,0 +1,1220 @@
+{
+  "artifact": {
+    "bytes": 2263560,
+    "sha256": "f428a0c2d2f8de7af2f3ac7435635af5c054d77110c5c6dd49300cdc1b2839d4"
+  },
+  "environment": {
+    "python": "3.11.3",
+    "platform": "Windows",
+    "platformRelease": "10",
+    "machine": "AMD64",
+    "playwright": "1.62.0",
+    "channel": "msedge",
+    "browser": "157.0.4341.60",
+    "browserPlugin": "Browser plugin not available; regular Playwright used"
+  },
+  "method": "First three measured recipes, two-serving needs times three as initial stock, one 390x844 touch viewport and five scenarios. The burst dispatches five synchronous DOM click events. Cross-tab fixtures update the released model in a second page of the same fresh context.",
+  "cases": 15,
+  "summary": [
+    {
+      "scenario": "single-confirm",
+      "cases": 3,
+      "firstRejected": 0,
+      "recovered": 0
+    },
+    {
+      "scenario": "five-event-burst",
+      "cases": 3,
+      "firstRejected": 0,
+      "recovered": 0
+    },
+    {
+      "scenario": "stock-topup",
+      "cases": 3,
+      "firstRejected": 0,
+      "recovered": 0
+    },
+    {
+      "scenario": "stock-shortage",
+      "cases": 3,
+      "firstRejected": 3,
+      "recovered": 3
+    },
+    {
+      "scenario": "servings-change",
+      "cases": 3,
+      "firstRejected": 3,
+      "recovered": 3
+    }
+  ],
+  "rows": [
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "scenario": "single-confirm",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 840
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 840
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": false,
+      "firstFeedback": "",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 560
+          },
+          "egg": {
+            "quantity": 8
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": false,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 560
+          },
+          "egg": {
+            "quantity": 8
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "scenario": "five-event-burst",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 840
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 840
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "firstConfirmClickEvents": 5,
+      "firstConfirmationRejected": false,
+      "firstFeedback": "",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 560
+          },
+          "egg": {
+            "quantity": 8
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": false,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 560
+          },
+          "egg": {
+            "quantity": 8
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "scenario": "stock-topup",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 840
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 850
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": false,
+      "firstFeedback": "",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 570
+          },
+          "egg": {
+            "quantity": 8
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": false,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 570
+          },
+          "egg": {
+            "quantity": 8
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "scenario": "stock-shortage",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 840
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 0
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": true,
+      "firstFeedback": "还有食材需要补齐或核对。",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 0
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": true,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 560
+          },
+          "egg": {
+            "quantity": 8
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "scenario": "servings-change",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 840
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 3,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 840
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": true,
+      "firstFeedback": "这顿的菜单或用量已变化，请关闭后重新确认。",
+      "bookAfterFirstConfirm": {
+        "servings": 3,
+        "plan": [
+          "tomato-eggs"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 840
+          },
+          "egg": {
+            "quantity": 12
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": true,
+      "finalBook": {
+        "servings": 3,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 420
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "scenario": "single-confirm",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 600
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 600
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": false,
+      "firstFeedback": "",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 400
+          },
+          "egg": {
+            "quantity": 4
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": false,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 400
+          },
+          "egg": {
+            "quantity": 4
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "scenario": "five-event-burst",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 600
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 600
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "firstConfirmClickEvents": 5,
+      "firstConfirmationRejected": false,
+      "firstFeedback": "",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 400
+          },
+          "egg": {
+            "quantity": 4
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": false,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 400
+          },
+          "egg": {
+            "quantity": 4
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "scenario": "stock-topup",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 600
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 610
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": false,
+      "firstFeedback": "",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 410
+          },
+          "egg": {
+            "quantity": 4
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": false,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 410
+          },
+          "egg": {
+            "quantity": 4
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "scenario": "stock-shortage",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 600
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 0
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": true,
+      "firstFeedback": "还有食材需要补齐或核对。",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 0
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": true,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 400
+          },
+          "egg": {
+            "quantity": 4
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "scenario": "servings-change",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "units": {
+        "tomato": "克",
+        "egg": "个"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 600
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 3,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 600
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": true,
+      "firstFeedback": "这顿的菜单或用量已变化，请关闭后重新确认。",
+      "bookAfterFirstConfirm": {
+        "servings": 3,
+        "plan": [
+          "tomato-egg-soup"
+        ],
+        "stock": {
+          "tomato": {
+            "quantity": 600
+          },
+          "egg": {
+            "quantity": 6
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": true,
+      "finalBook": {
+        "servings": 3,
+        "plan": [],
+        "stock": {
+          "tomato": {
+            "quantity": 300
+          },
+          "egg": {
+            "quantity": 3
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "scenario": "single-confirm",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "units": {
+        "firm-tofu": "克",
+        "scallion": "克"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 900
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 900
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": false,
+      "firstFeedback": "",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 600
+          },
+          "scallion": {
+            "quantity": 30
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": false,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 600
+          },
+          "scallion": {
+            "quantity": 30
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "scenario": "five-event-burst",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "units": {
+        "firm-tofu": "克",
+        "scallion": "克"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 900
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 900
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "firstConfirmClickEvents": 5,
+      "firstConfirmationRejected": false,
+      "firstFeedback": "",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 600
+          },
+          "scallion": {
+            "quantity": 30
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": false,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 600
+          },
+          "scallion": {
+            "quantity": 30
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "scenario": "stock-topup",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "units": {
+        "firm-tofu": "克",
+        "scallion": "克"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 900
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 910
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": false,
+      "firstFeedback": "",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 610
+          },
+          "scallion": {
+            "quantity": 30
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": false,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 610
+          },
+          "scallion": {
+            "quantity": 30
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "scenario": "stock-shortage",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "units": {
+        "firm-tofu": "克",
+        "scallion": "克"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 900
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 0
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": true,
+      "firstFeedback": "还有食材需要补齐或核对。",
+      "bookAfterFirstConfirm": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 0
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": true,
+      "finalBook": {
+        "servings": 2,
+        "plan": [],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 600
+          },
+          "scallion": {
+            "quantity": 30
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "scenario": "servings-change",
+      "viewportCssPx": {
+        "width": 390,
+        "height": 844
+      },
+      "needsAtTwoServings": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "units": {
+        "firm-tofu": "克",
+        "scallion": "克"
+      },
+      "originalBook": {
+        "servings": 2,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 900
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "bookBeforeFirstConfirm": {
+        "servings": 3,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 900
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "firstConfirmClickEvents": 1,
+      "firstConfirmationRejected": true,
+      "firstFeedback": "这顿的菜单或用量已变化，请关闭后重新确认。",
+      "bookAfterFirstConfirm": {
+        "servings": 3,
+        "plan": [
+          "pan-tofu"
+        ],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 900
+          },
+          "scallion": {
+            "quantity": 45
+          }
+        }
+      },
+      "recoveredByReopeningConfirmation": true,
+      "finalBook": {
+        "servings": 3,
+        "plan": [],
+        "stock": {
+          "firm-tofu": {
+            "quantity": 450
+          },
+          "scallion": {
+            "quantity": 22
+          }
+        }
+      },
+      "persistedAfterReload": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    }
+  ],
+  "limitation": "Browser emulation and controlled same-context writers. The synthetic click burst does not reproduce physical touch timing. Real handsets, crashes, browser quota failures, multiple selected recipes and different browser channels are outside the test."
+}
