@@ -1,0 +1,2298 @@
+{
+  "artifact": {
+    "bytes": 2263560,
+    "sha256": "f428a0c2d2f8de7af2f3ac7435635af5c054d77110c5c6dd49300cdc1b2839d4"
+  },
+  "environment": {
+    "python": "3.11.3",
+    "system": "Windows",
+    "release": "10",
+    "machine": "AMD64",
+    "playwright": "1.62.0",
+    "channel": "msedge",
+    "browser": "157.0.4341.60"
+  },
+  "method": "Six deletion scopes times cancel/confirm in fresh offline, touch-enabled 390x844 contexts. Actual UI actions and two tabs, model fixtures only. Compare complete expected state, other storage sentinels, previously downloaded bytes and stale note edits.",
+  "cases": 12,
+  "rows": [
+    {
+      "action": "delete-home-food",
+      "decision": "cancel",
+      "mode": "home",
+      "confirmationText": "删掉这条后，相关菜谱会显示待核对。",
+      "before": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": null,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "delete-home-food",
+      "decision": "confirm",
+      "mode": "home",
+      "confirmationText": "删掉这条后，相关菜谱会显示待核对。",
+      "before": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": null,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "delete-demo-food",
+      "decision": "cancel",
+      "mode": "demo",
+      "confirmationText": "删掉这条后，相关菜谱会显示待核对。",
+      "before": {
+        "mode": "demo",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "demo",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": null,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "delete-demo-food",
+      "decision": "confirm",
+      "mode": "demo",
+      "confirmationText": "删掉这条后，相关菜谱会显示待核对。",
+      "before": {
+        "mode": "demo",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "demo",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": null,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "clear-home-stock",
+      "decision": "cancel",
+      "mode": "home",
+      "confirmationText": "清空后，已选菜单的用料会重新标为待核对。",
+      "before": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": null,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "clear-home-stock",
+      "decision": "confirm",
+      "mode": "home",
+      "confirmationText": "清空后，已选菜单的用料会重新标为待核对。",
+      "before": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {},
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": null,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "delete-note",
+      "decision": "cancel",
+      "mode": "home",
+      "confirmationText": "此操作会从当前浏览器移除这份做菜记录。",
+      "before": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": null,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "delete-note",
+      "decision": "confirm",
+      "mode": "home",
+      "confirmationText": "此操作会从当前浏览器移除这份做菜记录。",
+      "before": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": null,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "clear-private-home",
+      "decision": "cancel",
+      "mode": "home",
+      "confirmationText": "清空自己的库存、菜单和做菜记录。已经下载的文件和已投稿菜谱需要另行删除。",
+      "before": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": true,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "clear-private-home",
+      "decision": "confirm",
+      "mode": "home",
+      "confirmationText": "清空自己的库存、菜单和做菜记录。已经下载的文件和已投稿菜谱需要另行删除。",
+      "before": {
+        "mode": "home",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "home",
+        "notes": [],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 2,
+            "stock": {},
+            "plan": []
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": true,
+      "staleEditRejected": true,
+      "staleEditMessage": "这条记录已经删除，请重新新建。",
+      "staleFormValuesAfterDeletion": {
+        "name": "合成删除样本甲",
+        "ingredients": "合成材料 1 克",
+        "steps": "合成步骤甲"
+      },
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "clear-private-demo",
+      "decision": "cancel",
+      "mode": "demo",
+      "confirmationText": "清空自己的库存、菜单和做菜记录。已经下载的文件和已投稿菜谱需要另行删除。",
+      "before": {
+        "mode": "demo",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "demo",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": true,
+      "staleEditRejected": false,
+      "staleEditMessage": null,
+      "staleFormValuesAfterDeletion": null,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "action": "clear-private-demo",
+      "decision": "confirm",
+      "mode": "demo",
+      "confirmationText": "清空自己的库存、菜单和做菜记录。已经下载的文件和已投稿菜谱需要另行删除。",
+      "before": {
+        "mode": "demo",
+        "notes": [
+          {
+            "id": "synthetic-note-a",
+            "name": "合成删除样本甲",
+            "servings": 2,
+            "minutes": 8,
+            "ingredients": [
+              "合成材料 1 克"
+            ],
+            "steps": [
+              "合成步骤甲"
+            ],
+            "safety": [
+              "合成提醒"
+            ],
+            "tasteTip": "合成口味"
+          },
+          {
+            "id": "synthetic-note-b",
+            "name": "合成删除样本乙",
+            "servings": 1,
+            "minutes": 9,
+            "ingredients": [
+              "合成材料 2 克"
+            ],
+            "steps": [
+              "合成步骤乙"
+            ],
+            "safety": [],
+            "tasteTip": ""
+          }
+        ],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 3,
+            "plan": [
+              "tomato-eggs"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 711,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 7
+              }
+            },
+            "adjustments": {
+              "tomato-eggs": {
+                "servings": 3,
+                "needs": {
+                  "tomato": 400
+                }
+              }
+            }
+          }
+        }
+      },
+      "after": {
+        "mode": "demo",
+        "notes": [],
+        "books": {
+          "demo": {
+            "servings": 4,
+            "plan": [
+              "tomato-eggs",
+              "tomato-egg-soup"
+            ],
+            "stock": {
+              "tomato": {
+                "quantity": 913,
+                "priority": true
+              },
+              "egg": {
+                "quantity": 6
+              },
+              "firm-tofu": {
+                "quantity": 300
+              },
+              "scallion": {
+                "quantity": 30
+              },
+              "cucumber": {
+                "quantity": 190
+              },
+              "rice": {
+                "quantity": 500
+              },
+              "garlic": {
+                "quantity": 20
+              }
+            }
+          },
+          "home": {
+            "servings": 2,
+            "stock": {},
+            "plan": []
+          }
+        }
+      },
+      "stateMatchesImmediately": true,
+      "peerMatchesWithoutReload": true,
+      "bothReloadsMatch": true,
+      "unrelatedLocalStorageRetained": true,
+      "sessionSentinelRetained": true,
+      "downloadRetained": true,
+      "staleEditRejected": true,
+      "staleEditMessage": "这条记录已经删除，请重新新建。",
+      "staleFormValuesAfterDeletion": {
+        "name": "合成删除样本甲",
+        "ingredients": "合成材料 1 克",
+        "steps": "合成步骤甲"
+      },
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    }
+  ],
+  "limitation": "Logical app-state deletion in one emulated browser with available storage. No disk-forensic erasure, downloaded-copy deletion, submitted-website removal, storage-failure recovery, other browser profiles, arbitrary concurrent writers or physical phone tests."
+}

@@ -2,6 +2,8 @@
 
 | 日期 | 论文 | 可复现材料 |
 | --- | --- | --- |
+| 2026-11-22 | [“优先用掉”对检索排序与配餐的不同影响](2026-11-22/priority-ranking.md)<br>How use-first flags affect search ranking and meal suggestions | [优先标记实验 / Priority study](../bench/2026-11-22/priority-ranking.mjs) · [结果 / Results](../bench/2026-11-22/priority-ranking-results.json) |
+| 2026-11-22 | [删除库存与清除本机数据的实际边界](2026-11-22/deletion-scope.md)<br>What pantry deletion and private-data clearing actually remove | [删除范围实验 / Deletion study](../bench/2026-11-22/deletion-scope.py) · [结果 / Results](../bench/2026-11-22/deletion-scope-results.json) |
 | 2026-11-21 | [重复确认与跨标签页变化下的库存扣减](2026-11-21/finish-consistency.md)<br>Pantry deductions under repeated confirmation and cross-tab changes | [扣减实验 / Completion study](../bench/2026-11-21/finish-consistency.py) · [结果 / Results](../bench/2026-11-21/finish-consistency-results.json) |
 | 2026-11-21 | [做菜记录中的特殊字符与单条导出边界](2026-11-21/notes-text-export.md)<br>Literal text and single-record export boundaries in cooking notes | [文字与导出 / Text and export study](../bench/2026-11-21/notes-text-export.py) · [结果 / Results](../bench/2026-11-21/notes-text-export-results.json) |
 | 2026-11-20 | [结构化字段如何限制菜谱筛选覆盖范围](2026-11-20/filter-coverage.md)<br>How structured fields limit recipe-filter coverage | [筛选审计 / Filter audit](../bench/2026-11-20/filter-coverage.mjs) · [结果 / Results](../bench/2026-11-20/filter-coverage-results.json) |
