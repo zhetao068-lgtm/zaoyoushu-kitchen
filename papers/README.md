@@ -2,6 +2,8 @@
 
 | 日期 | 论文 | 可复现材料 |
 | --- | --- | --- |
+| 2026-11-28 | [完整菜名回查与同名记录的排序边界](2026-11-28/title-retrieval.md)<br>Full-title retrieval and ranking boundaries between same-title recipe records | [菜名回查 / Title retrieval study](../bench/2026-11-28/title-retrieval.mjs) · [结果 / Results](../bench/2026-11-28/title-retrieval-results.json) |
+| 2026-11-28 | [用餐人数变化后，少量缺料调整如何失效与重建](2026-11-28/servings-adjustments.md)<br>Invalidating and rebuilding shortage adjustments after serving-count changes | [人数与调整 / Serving adjustment study](../bench/2026-11-28/servings-adjustments.py) · [结果 / Results](../bench/2026-11-28/servings-adjustments-results.json) |
 | 2026-11-22 | [“优先用掉”对检索排序与配餐的不同影响](2026-11-22/priority-ranking.md)<br>How use-first flags affect search ranking and meal suggestions | [优先标记实验 / Priority study](../bench/2026-11-22/priority-ranking.mjs) · [结果 / Results](../bench/2026-11-22/priority-ranking-results.json) |
 | 2026-11-22 | [删除库存与清除本机数据的实际边界](2026-11-22/deletion-scope.md)<br>What pantry deletion and private-data clearing actually remove | [删除范围实验 / Deletion study](../bench/2026-11-22/deletion-scope.py) · [结果 / Results](../bench/2026-11-22/deletion-scope-results.json) |
 | 2026-11-21 | [重复确认与跨标签页变化下的库存扣减](2026-11-21/finish-consistency.md)<br>Pantry deductions under repeated confirmation and cross-tab changes | [扣减实验 / Completion study](../bench/2026-11-21/finish-consistency.py) · [结果 / Results](../bench/2026-11-21/finish-consistency-results.json) |

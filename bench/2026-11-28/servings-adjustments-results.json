@@ -1,0 +1,1833 @@
+{
+  "artifact": {
+    "bytes": 2263560,
+    "sha256": "f428a0c2d2f8de7af2f3ac7435635af5c054d77110c5c6dd49300cdc1b2839d4"
+  },
+  "environment": {
+    "python": "3.11.3",
+    "system": "Windows",
+    "release": "10",
+    "machine": "AMD64",
+    "playwright": "1.62.0",
+    "channel": "msedge",
+    "browser": "158.0.4370.33",
+    "browserPlugin": "Browser plugin not available; regular Playwright used"
+  },
+  "method": "Three published recipes times starting servings 1, 2, 8 times minus/plus. First save a within-20-percent adjustment through the real UI. Enabled changes are reversed and the shortage is reconfirmed; disabled bound controls are observed without forced clicks. Independent integer arithmetic checks model and rendered quantities.",
+  "viewportCssPx": {
+    "width": 390,
+    "height": 844
+  },
+  "cases": 18,
+  "enabledChanges": 12,
+  "disabledBounds": 6,
+  "rows": [
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "initialServings": 1,
+      "offset": -1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 112
+        },
+        "egg": {
+          "quantity": 2
+        }
+      },
+      "initialAdjustment": {
+        "tomato-eggs": {
+          "servings": 1,
+          "needs": {
+            "tomato": 112
+          }
+        }
+      },
+      "boundControlDisabled": true,
+      "initial": {
+        "servings": 1,
+        "needs": {
+          "tomato": 112,
+          "egg": 2
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 112 克 · 家里有 112 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 2 个 · 家里有 2 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": null,
+      "afterReturning": null,
+      "initialShortageText": "番茄\n需要 140 克 · 少 28 克",
+      "repeatedShortageText": null,
+      "readjustmentConfirmed": false,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "initialServings": 1,
+      "offset": 1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 112
+        },
+        "egg": {
+          "quantity": 2
+        }
+      },
+      "initialAdjustment": {
+        "tomato-eggs": {
+          "servings": 1,
+          "needs": {
+            "tomato": 112
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 1,
+        "needs": {
+          "tomato": 112,
+          "egg": 2
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 112 克 · 家里有 112 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 2 个 · 家里有 2 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 2,
+        "needs": {
+          "tomato": 280,
+          "egg": 4
+        },
+        "shortfalls": {
+          "tomato": 168,
+          "egg": 2
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 280 克 · 家里有 112 克",
+            "status": "还差 168 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 4 个 · 家里有 2 个",
+            "status": "还差 2 个"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 1,
+        "needs": {
+          "tomato": 140,
+          "egg": 2
+        },
+        "shortfalls": {
+          "tomato": 28,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 140 克 · 家里有 112 克",
+            "status": "还差 28 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 2 个 · 家里有 2 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "番茄\n需要 140 克 · 少 28 克",
+      "repeatedShortageText": "番茄\n需要 140 克 · 少 28 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "initialServings": 2,
+      "offset": -1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 224
+        },
+        "egg": {
+          "quantity": 4
+        }
+      },
+      "initialAdjustment": {
+        "tomato-eggs": {
+          "servings": 2,
+          "needs": {
+            "tomato": 224
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 2,
+        "needs": {
+          "tomato": 224,
+          "egg": 4
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 224 克 · 家里有 224 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 4 个 · 家里有 4 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 1,
+        "needs": {
+          "tomato": 140,
+          "egg": 2
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 140 克 · 家里有 224 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 2 个 · 家里有 4 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 2,
+        "needs": {
+          "tomato": 280,
+          "egg": 4
+        },
+        "shortfalls": {
+          "tomato": 56,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 280 克 · 家里有 224 克",
+            "status": "还差 56 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 4 个 · 家里有 4 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "番茄\n需要 280 克 · 少 56 克",
+      "repeatedShortageText": "番茄\n需要 280 克 · 少 56 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "initialServings": 2,
+      "offset": 1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 224
+        },
+        "egg": {
+          "quantity": 4
+        }
+      },
+      "initialAdjustment": {
+        "tomato-eggs": {
+          "servings": 2,
+          "needs": {
+            "tomato": 224
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 2,
+        "needs": {
+          "tomato": 224,
+          "egg": 4
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 224 克 · 家里有 224 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 4 个 · 家里有 4 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 3,
+        "needs": {
+          "tomato": 420,
+          "egg": 6
+        },
+        "shortfalls": {
+          "tomato": 196,
+          "egg": 2
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 420 克 · 家里有 224 克",
+            "status": "还差 196 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 6 个 · 家里有 4 个",
+            "status": "还差 2 个"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 2,
+        "needs": {
+          "tomato": 280,
+          "egg": 4
+        },
+        "shortfalls": {
+          "tomato": 56,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 280 克 · 家里有 224 克",
+            "status": "还差 56 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 4 个 · 家里有 4 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "番茄\n需要 280 克 · 少 56 克",
+      "repeatedShortageText": "番茄\n需要 280 克 · 少 56 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "initialServings": 8,
+      "offset": -1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 896
+        },
+        "egg": {
+          "quantity": 16
+        }
+      },
+      "initialAdjustment": {
+        "tomato-eggs": {
+          "servings": 8,
+          "needs": {
+            "tomato": 896
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 8,
+        "needs": {
+          "tomato": 896,
+          "egg": 16
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 896 克 · 家里有 896 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 16 个 · 家里有 16 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 7,
+        "needs": {
+          "tomato": 980,
+          "egg": 14
+        },
+        "shortfalls": {
+          "tomato": 84,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 980 克 · 家里有 896 克",
+            "status": "还差 84 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 14 个 · 家里有 16 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 8,
+        "needs": {
+          "tomato": 1120,
+          "egg": 16
+        },
+        "shortfalls": {
+          "tomato": 224,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 1,120 克 · 家里有 896 克",
+            "status": "还差 224 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 16 个 · 家里有 16 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "番茄\n需要 1,120 克 · 少 224 克",
+      "repeatedShortageText": "番茄\n需要 1,120 克 · 少 224 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-eggs",
+      "recipeName": "番茄炒蛋",
+      "initialServings": 8,
+      "offset": 1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 280,
+        "egg": 4
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 896
+        },
+        "egg": {
+          "quantity": 16
+        }
+      },
+      "initialAdjustment": {
+        "tomato-eggs": {
+          "servings": 8,
+          "needs": {
+            "tomato": 896
+          }
+        }
+      },
+      "boundControlDisabled": true,
+      "initial": {
+        "servings": 8,
+        "needs": {
+          "tomato": 896,
+          "egg": 16
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 896 克 · 家里有 896 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 16 个 · 家里有 16 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": null,
+      "afterReturning": null,
+      "initialShortageText": "番茄\n需要 1,120 克 · 少 224 克",
+      "repeatedShortageText": null,
+      "readjustmentConfirmed": false,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "initialServings": 1,
+      "offset": -1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 80
+        },
+        "egg": {
+          "quantity": 1
+        }
+      },
+      "initialAdjustment": {
+        "tomato-egg-soup": {
+          "servings": 1,
+          "needs": {
+            "tomato": 80
+          }
+        }
+      },
+      "boundControlDisabled": true,
+      "initial": {
+        "servings": 1,
+        "needs": {
+          "tomato": 80,
+          "egg": 1
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 80 克 · 家里有 80 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 1 个 · 家里有 1 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": null,
+      "afterReturning": null,
+      "initialShortageText": "番茄\n需要 100 克 · 少 20 克",
+      "repeatedShortageText": null,
+      "readjustmentConfirmed": false,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "initialServings": 1,
+      "offset": 1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 80
+        },
+        "egg": {
+          "quantity": 1
+        }
+      },
+      "initialAdjustment": {
+        "tomato-egg-soup": {
+          "servings": 1,
+          "needs": {
+            "tomato": 80
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 1,
+        "needs": {
+          "tomato": 80,
+          "egg": 1
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 80 克 · 家里有 80 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 1 个 · 家里有 1 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 2,
+        "needs": {
+          "tomato": 200,
+          "egg": 2
+        },
+        "shortfalls": {
+          "tomato": 120,
+          "egg": 1
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 200 克 · 家里有 80 克",
+            "status": "还差 120 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 2 个 · 家里有 1 个",
+            "status": "还差 1 个"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 1,
+        "needs": {
+          "tomato": 100,
+          "egg": 1
+        },
+        "shortfalls": {
+          "tomato": 20,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 100 克 · 家里有 80 克",
+            "status": "还差 20 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 1 个 · 家里有 1 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "番茄\n需要 100 克 · 少 20 克",
+      "repeatedShortageText": "番茄\n需要 100 克 · 少 20 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "initialServings": 2,
+      "offset": -1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 160
+        },
+        "egg": {
+          "quantity": 2
+        }
+      },
+      "initialAdjustment": {
+        "tomato-egg-soup": {
+          "servings": 2,
+          "needs": {
+            "tomato": 160
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 2,
+        "needs": {
+          "tomato": 160,
+          "egg": 2
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 160 克 · 家里有 160 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 2 个 · 家里有 2 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 1,
+        "needs": {
+          "tomato": 100,
+          "egg": 1
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 100 克 · 家里有 160 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 1 个 · 家里有 2 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 2,
+        "needs": {
+          "tomato": 200,
+          "egg": 2
+        },
+        "shortfalls": {
+          "tomato": 40,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 200 克 · 家里有 160 克",
+            "status": "还差 40 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 2 个 · 家里有 2 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "番茄\n需要 200 克 · 少 40 克",
+      "repeatedShortageText": "番茄\n需要 200 克 · 少 40 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "initialServings": 2,
+      "offset": 1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 160
+        },
+        "egg": {
+          "quantity": 2
+        }
+      },
+      "initialAdjustment": {
+        "tomato-egg-soup": {
+          "servings": 2,
+          "needs": {
+            "tomato": 160
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 2,
+        "needs": {
+          "tomato": 160,
+          "egg": 2
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 160 克 · 家里有 160 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 2 个 · 家里有 2 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 3,
+        "needs": {
+          "tomato": 300,
+          "egg": 3
+        },
+        "shortfalls": {
+          "tomato": 140,
+          "egg": 1
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 300 克 · 家里有 160 克",
+            "status": "还差 140 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 3 个 · 家里有 2 个",
+            "status": "还差 1 个"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 2,
+        "needs": {
+          "tomato": 200,
+          "egg": 2
+        },
+        "shortfalls": {
+          "tomato": 40,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 200 克 · 家里有 160 克",
+            "status": "还差 40 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 2 个 · 家里有 2 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "番茄\n需要 200 克 · 少 40 克",
+      "repeatedShortageText": "番茄\n需要 200 克 · 少 40 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "initialServings": 8,
+      "offset": -1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 640
+        },
+        "egg": {
+          "quantity": 8
+        }
+      },
+      "initialAdjustment": {
+        "tomato-egg-soup": {
+          "servings": 8,
+          "needs": {
+            "tomato": 640
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 8,
+        "needs": {
+          "tomato": 640,
+          "egg": 8
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 640 克 · 家里有 640 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 8 个 · 家里有 8 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 7,
+        "needs": {
+          "tomato": 700,
+          "egg": 7
+        },
+        "shortfalls": {
+          "tomato": 60,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 700 克 · 家里有 640 克",
+            "status": "还差 60 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 7 个 · 家里有 8 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 8,
+        "needs": {
+          "tomato": 800,
+          "egg": 8
+        },
+        "shortfalls": {
+          "tomato": 160,
+          "egg": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 800 克 · 家里有 640 克",
+            "status": "还差 160 克"
+          },
+          "鸡蛋": {
+            "summary": "需要 8 个 · 家里有 8 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "番茄\n需要 800 克 · 少 160 克",
+      "repeatedShortageText": "番茄\n需要 800 克 · 少 160 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "tomato-egg-soup",
+      "recipeName": "番茄鸡蛋汤",
+      "initialServings": 8,
+      "offset": 1,
+      "targetIngredient": "tomato",
+      "baseTwoServingNeeds": {
+        "tomato": 200,
+        "egg": 2
+      },
+      "catalogFoodMetadata": {
+        "tomato": {
+          "name": "番茄",
+          "unit": "克"
+        },
+        "egg": {
+          "name": "鸡蛋",
+          "unit": "个"
+        }
+      },
+      "initialStock": {
+        "tomato": {
+          "quantity": 640
+        },
+        "egg": {
+          "quantity": 8
+        }
+      },
+      "initialAdjustment": {
+        "tomato-egg-soup": {
+          "servings": 8,
+          "needs": {
+            "tomato": 640
+          }
+        }
+      },
+      "boundControlDisabled": true,
+      "initial": {
+        "servings": 8,
+        "needs": {
+          "tomato": 640,
+          "egg": 8
+        },
+        "shortfalls": {
+          "tomato": 0,
+          "egg": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "番茄": {
+            "summary": "需要 640 克 · 家里有 640 克",
+            "status": "家里够用"
+          },
+          "鸡蛋": {
+            "summary": "需要 8 个 · 家里有 8 个",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": null,
+      "afterReturning": null,
+      "initialShortageText": "番茄\n需要 800 克 · 少 160 克",
+      "repeatedShortageText": null,
+      "readjustmentConfirmed": false,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "initialServings": 1,
+      "offset": -1,
+      "targetIngredient": "firm-tofu",
+      "baseTwoServingNeeds": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "catalogFoodMetadata": {
+        "firm-tofu": {
+          "name": "北豆腐",
+          "unit": "克"
+        },
+        "scallion": {
+          "name": "葱",
+          "unit": "克"
+        }
+      },
+      "initialStock": {
+        "firm-tofu": {
+          "quantity": 120
+        },
+        "scallion": {
+          "quantity": 8
+        }
+      },
+      "initialAdjustment": {
+        "pan-tofu": {
+          "servings": 1,
+          "needs": {
+            "firm-tofu": 120
+          }
+        }
+      },
+      "boundControlDisabled": true,
+      "initial": {
+        "servings": 1,
+        "needs": {
+          "firm-tofu": 120,
+          "scallion": 8
+        },
+        "shortfalls": {
+          "firm-tofu": 0,
+          "scallion": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 120 克 · 家里有 120 克",
+            "status": "家里够用"
+          },
+          "葱": {
+            "summary": "需要 8 克 · 家里有 8 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": null,
+      "afterReturning": null,
+      "initialShortageText": "北豆腐\n需要 150 克 · 少 30 克",
+      "repeatedShortageText": null,
+      "readjustmentConfirmed": false,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "initialServings": 1,
+      "offset": 1,
+      "targetIngredient": "firm-tofu",
+      "baseTwoServingNeeds": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "catalogFoodMetadata": {
+        "firm-tofu": {
+          "name": "北豆腐",
+          "unit": "克"
+        },
+        "scallion": {
+          "name": "葱",
+          "unit": "克"
+        }
+      },
+      "initialStock": {
+        "firm-tofu": {
+          "quantity": 120
+        },
+        "scallion": {
+          "quantity": 8
+        }
+      },
+      "initialAdjustment": {
+        "pan-tofu": {
+          "servings": 1,
+          "needs": {
+            "firm-tofu": 120
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 1,
+        "needs": {
+          "firm-tofu": 120,
+          "scallion": 8
+        },
+        "shortfalls": {
+          "firm-tofu": 0,
+          "scallion": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 120 克 · 家里有 120 克",
+            "status": "家里够用"
+          },
+          "葱": {
+            "summary": "需要 8 克 · 家里有 8 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 2,
+        "needs": {
+          "firm-tofu": 300,
+          "scallion": 15
+        },
+        "shortfalls": {
+          "firm-tofu": 180,
+          "scallion": 7
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 300 克 · 家里有 120 克",
+            "status": "还差 180 克"
+          },
+          "葱": {
+            "summary": "需要 15 克 · 家里有 8 克",
+            "status": "还差 7 克"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 1,
+        "needs": {
+          "firm-tofu": 150,
+          "scallion": 8
+        },
+        "shortfalls": {
+          "firm-tofu": 30,
+          "scallion": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 150 克 · 家里有 120 克",
+            "status": "还差 30 克"
+          },
+          "葱": {
+            "summary": "需要 8 克 · 家里有 8 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "北豆腐\n需要 150 克 · 少 30 克",
+      "repeatedShortageText": "北豆腐\n需要 150 克 · 少 30 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "initialServings": 2,
+      "offset": -1,
+      "targetIngredient": "firm-tofu",
+      "baseTwoServingNeeds": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "catalogFoodMetadata": {
+        "firm-tofu": {
+          "name": "北豆腐",
+          "unit": "克"
+        },
+        "scallion": {
+          "name": "葱",
+          "unit": "克"
+        }
+      },
+      "initialStock": {
+        "firm-tofu": {
+          "quantity": 240
+        },
+        "scallion": {
+          "quantity": 15
+        }
+      },
+      "initialAdjustment": {
+        "pan-tofu": {
+          "servings": 2,
+          "needs": {
+            "firm-tofu": 240
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 2,
+        "needs": {
+          "firm-tofu": 240,
+          "scallion": 15
+        },
+        "shortfalls": {
+          "firm-tofu": 0,
+          "scallion": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 240 克 · 家里有 240 克",
+            "status": "家里够用"
+          },
+          "葱": {
+            "summary": "需要 15 克 · 家里有 15 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 1,
+        "needs": {
+          "firm-tofu": 150,
+          "scallion": 8
+        },
+        "shortfalls": {
+          "firm-tofu": 0,
+          "scallion": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": false,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 150 克 · 家里有 240 克",
+            "status": "家里够用"
+          },
+          "葱": {
+            "summary": "需要 8 克 · 家里有 15 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 2,
+        "needs": {
+          "firm-tofu": 300,
+          "scallion": 15
+        },
+        "shortfalls": {
+          "firm-tofu": 60,
+          "scallion": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 300 克 · 家里有 240 克",
+            "status": "还差 60 克"
+          },
+          "葱": {
+            "summary": "需要 15 克 · 家里有 15 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "北豆腐\n需要 300 克 · 少 60 克",
+      "repeatedShortageText": "北豆腐\n需要 300 克 · 少 60 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "initialServings": 2,
+      "offset": 1,
+      "targetIngredient": "firm-tofu",
+      "baseTwoServingNeeds": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "catalogFoodMetadata": {
+        "firm-tofu": {
+          "name": "北豆腐",
+          "unit": "克"
+        },
+        "scallion": {
+          "name": "葱",
+          "unit": "克"
+        }
+      },
+      "initialStock": {
+        "firm-tofu": {
+          "quantity": 240
+        },
+        "scallion": {
+          "quantity": 15
+        }
+      },
+      "initialAdjustment": {
+        "pan-tofu": {
+          "servings": 2,
+          "needs": {
+            "firm-tofu": 240
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 2,
+        "needs": {
+          "firm-tofu": 240,
+          "scallion": 15
+        },
+        "shortfalls": {
+          "firm-tofu": 0,
+          "scallion": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 240 克 · 家里有 240 克",
+            "status": "家里够用"
+          },
+          "葱": {
+            "summary": "需要 15 克 · 家里有 15 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 3,
+        "needs": {
+          "firm-tofu": 450,
+          "scallion": 23
+        },
+        "shortfalls": {
+          "firm-tofu": 210,
+          "scallion": 8
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 450 克 · 家里有 240 克",
+            "status": "还差 210 克"
+          },
+          "葱": {
+            "summary": "需要 23 克 · 家里有 15 克",
+            "status": "还差 8 克"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 2,
+        "needs": {
+          "firm-tofu": 300,
+          "scallion": 15
+        },
+        "shortfalls": {
+          "firm-tofu": 60,
+          "scallion": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 300 克 · 家里有 240 克",
+            "status": "还差 60 克"
+          },
+          "葱": {
+            "summary": "需要 15 克 · 家里有 15 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "北豆腐\n需要 300 克 · 少 60 克",
+      "repeatedShortageText": "北豆腐\n需要 300 克 · 少 60 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "initialServings": 8,
+      "offset": -1,
+      "targetIngredient": "firm-tofu",
+      "baseTwoServingNeeds": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "catalogFoodMetadata": {
+        "firm-tofu": {
+          "name": "北豆腐",
+          "unit": "克"
+        },
+        "scallion": {
+          "name": "葱",
+          "unit": "克"
+        }
+      },
+      "initialStock": {
+        "firm-tofu": {
+          "quantity": 960
+        },
+        "scallion": {
+          "quantity": 60
+        }
+      },
+      "initialAdjustment": {
+        "pan-tofu": {
+          "servings": 8,
+          "needs": {
+            "firm-tofu": 960
+          }
+        }
+      },
+      "boundControlDisabled": false,
+      "initial": {
+        "servings": 8,
+        "needs": {
+          "firm-tofu": 960,
+          "scallion": 60
+        },
+        "shortfalls": {
+          "firm-tofu": 0,
+          "scallion": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 960 克 · 家里有 960 克",
+            "status": "家里够用"
+          },
+          "葱": {
+            "summary": "需要 60 克 · 家里有 60 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": {
+        "servings": 7,
+        "needs": {
+          "firm-tofu": 1050,
+          "scallion": 53
+        },
+        "shortfalls": {
+          "firm-tofu": 90,
+          "scallion": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 1,050 克 · 家里有 960 克",
+            "status": "还差 90 克"
+          },
+          "葱": {
+            "summary": "需要 53 克 · 家里有 60 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterReturning": {
+        "servings": 8,
+        "needs": {
+          "firm-tofu": 1200,
+          "scallion": 60
+        },
+        "shortfalls": {
+          "firm-tofu": 240,
+          "scallion": 0
+        },
+        "adjustmentPresent": false,
+        "finishDisabled": true,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 1,200 克 · 家里有 960 克",
+            "status": "还差 240 克"
+          },
+          "葱": {
+            "summary": "需要 60 克 · 家里有 60 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "initialShortageText": "北豆腐\n需要 1,200 克 · 少 240 克",
+      "repeatedShortageText": "北豆腐\n需要 1,200 克 · 少 240 克",
+      "readjustmentConfirmed": true,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    },
+    {
+      "recipeId": "pan-tofu",
+      "recipeName": "家常煎豆腐",
+      "initialServings": 8,
+      "offset": 1,
+      "targetIngredient": "firm-tofu",
+      "baseTwoServingNeeds": {
+        "firm-tofu": 300,
+        "scallion": 15
+      },
+      "catalogFoodMetadata": {
+        "firm-tofu": {
+          "name": "北豆腐",
+          "unit": "克"
+        },
+        "scallion": {
+          "name": "葱",
+          "unit": "克"
+        }
+      },
+      "initialStock": {
+        "firm-tofu": {
+          "quantity": 960
+        },
+        "scallion": {
+          "quantity": 60
+        }
+      },
+      "initialAdjustment": {
+        "pan-tofu": {
+          "servings": 8,
+          "needs": {
+            "firm-tofu": 960
+          }
+        }
+      },
+      "boundControlDisabled": true,
+      "initial": {
+        "servings": 8,
+        "needs": {
+          "firm-tofu": 960,
+          "scallion": 60
+        },
+        "shortfalls": {
+          "firm-tofu": 0,
+          "scallion": 0
+        },
+        "adjustmentPresent": true,
+        "finishDisabled": false,
+        "rendered": {
+          "北豆腐": {
+            "summary": "需要 960 克 · 家里有 960 克",
+            "status": "家里够用"
+          },
+          "葱": {
+            "summary": "需要 60 克 · 家里有 60 克",
+            "status": "家里够用"
+          }
+        }
+      },
+      "afterChange": null,
+      "afterReturning": null,
+      "initialShortageText": "北豆腐\n需要 1,200 克 · 少 240 克",
+      "repeatedShortageText": null,
+      "readjustmentConfirmed": false,
+      "stockAndPlanPreserved": true,
+      "reloadPreservedFinalAdjustment": true,
+      "runtimeErrors": 0,
+      "consoleWarningsOrErrors": 0,
+      "httpRequests": 0
+    }
+  ],
+  "limitation": "One emulated browser and three deterministic fixtures, with exact synthetic quantities and available storage. No cooking trials, real handset, multiple selected recipes, estimated stock, cross-tab race or broad quantitative-model correctness claim."
+}
